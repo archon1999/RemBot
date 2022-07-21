@@ -17,7 +17,7 @@ def start_command_handler(bot: TeleBot, message):
         if len(message.text.split()) == 2:
             from_phone_number = message.text.split()[-1]
             if (from_user := BotUser.objects.filter(
-                    phone_number=from_phone_number)):
+                    phone_number=from_phone_number).first()):
                 user.from_user = from_user
                 user.save()
 
@@ -48,7 +48,7 @@ def menu_command_handler(bot: TeleBot, message):
         bot.send_message(chat_id, client_info,
                          reply_markup=keyboard)
 
-        if ro_api.get_client_open_orders(user.rem_id):
+        if ro_api.get_client_open_orders(user.phone_number):
             bot.send_message(chat_id, Messages.HAS_OPEN_ORDERS)
 
     open_orders_button = utils.make_inline_button(
@@ -57,11 +57,11 @@ def menu_command_handler(bot: TeleBot, message):
     )
     contact_administrator_button = types.InlineKeyboardButton(
         text=Keys.CONTACT_ADMINISTRATOR,
-        url='https://t.me/NaZaR_IO',
+        url=Messages.LINK_ADMINISTRATOR,
     )
     consultation_with_master_button = types.InlineKeyboardButton(
         text=Keys.CONSULTATION_WITH_MASTER,
-        url='https://t.me/NaZaR_IO',
+        url=Messages.LINK_MASTER,
     )
     referal_program_button = utils.make_inline_button(
         text=Keys.REFERAL_PROGRAM,
@@ -94,11 +94,11 @@ def menu_callback_query_handler(bot: TeleBot, call):
     )
     contact_administrator_button = types.InlineKeyboardButton(
         text=Keys.CONTACT_ADMINISTRATOR,
-        url='https://t.me/NaZaR_IO',
+        url=Messages.LINK_ADMINISTRATOR,
     )
     consultation_with_master_button = types.InlineKeyboardButton(
         text=Keys.CONSULTATION_WITH_MASTER,
-        url='https://t.me/NaZaR_IO',
+        url=Messages.LINK_MASTER,
     )
     referal_program_button = utils.make_inline_button(
         text=Keys.REFERAL_PROGRAM,

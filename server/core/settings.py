@@ -13,7 +13,7 @@ SECRET_KEY = 'django-insecure-cwz_2my+x^9*#xp)8c+_d8b%xkzcd8(db_hz(jz4s=m9hel=nr
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['*']
 
 
 # Application definition
@@ -114,3 +114,5 @@ STATIC_URL = '/static/'
 # https://docs.djangoproject.com/en/3.2/ref/settings/#default-auto-field
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
+
+JET_SIDE_MENU_COMPACT = True

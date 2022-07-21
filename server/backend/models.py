@@ -118,5 +118,9 @@ class Template(models.Model):
     def gettext(self):
         return filter_html(self.body)
 
+    class Meta:
+        verbose_name = 'Шаблон'
+        verbose_name_plural = 'Шаблоны'
+
     def __str__(self):
         return self.body

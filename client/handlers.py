@@ -1,6 +1,8 @@
 import time
 from telebot import TeleBot, types
 
+from django.utils import timezone
+
 import utils
 from commands import menu_command_handler
 from call_types import CallTypes
@@ -26,13 +28,34 @@ def registration_state_handler(bot: TeleBot, message):
 def open_orders_callback_query_handler(bot: TeleBot, call):
     chat_id = call.message.chat.id
     user = BotUser.objects.get(chat_id=chat_id)
-    orders = ro_api.get_client_open_orders(user.rem_id)
+    bot.delete_message(chat_id, call.message.id)
+    back_button = utils.make_inline_button(
+        text=Keys.MENU,
+        CallType=CallTypes.Menu,
+    )
+    contact_administrator_button = types.InlineKeyboardButton(
+        text=Keys.CONTACT_ADMINISTRATOR,
+        url=Messages.LINK_ADMINISTRATOR,
+    )
+    keyboard = types.InlineKeyboardMarkup()
+    keyboard.add(contact_administrator_button)
+    keyboard.add(back_button)
+    text = Messages.WAITING_FOR_OPEN_ORDERS.format(name=user.name)
+    message_id = bot.send_message(chat_id, text,
+                                  reply_markup=keyboard).id
+
+    orders = ro_api.get_client_open_orders(user.phone_number)
     text = utils.text_to_fat(Keys.OPEN_ORDERS) + '\n\n'
     for order in orders:
         notes = [order.kindof_good, order.brand,
                  order.model, order.appearance,
                  order.malfunction]
         description = ', '.join(filter(lambda s: s, notes))
+        tmp_order = dict(order)
+        tmp_order.pop('id')
+        tmp_order.pop('status', '')
+        tmp_order.pop('estimated_cost', '')
+        tmp_order.pop('estimated_done_at', '')
         order_info = Messages.ORDER_INFO.format(
             id=order.id,
             description=description,
@@ -40,23 +63,16 @@ def open_orders_callback_query_handler(bot: TeleBot, call):
             created=time.ctime(order.created_at / 1000),
             estimated_cost=order.estimated_cost,
             estimated_done_at=time.ctime(order.estimated_done_at / 1000),
+            **tmp_order,
         )
         text += order_info + '\n\n'
 
-    keyboard = types.InlineKeyboardMarkup()
-    back_button = utils.make_inline_button(
-        text=Keys.MENU,
-        CallType=CallTypes.Menu,
+    bot.edit_message_text(
+        chat_id=chat_id,
+        text=text,
+        message_id=message_id,
+        reply_markup=keyboard,
     )
-    contact_administrator_button = types.InlineKeyboardButton(
-        text=Keys.CONTACT_ADMINISTRATOR,
-        url='https://t.me/NaZaR_IO',
-    )
-    keyboard.add(contact_administrator_button)
-    keyboard.add(back_button)
-    bot.send_message(chat_id, text,
-                     reply_markup=keyboard)
-    bot.delete_message(chat_id, call.message.id)
 
 
 def referal_program_callback_query_handler(bot: TeleBot, call):
@@ -84,7 +100,9 @@ def referal_program_callback_query_handler(bot: TeleBot, call):
         text=Keys.BACK,
         CallType=CallTypes.Menu,
     )
-    keyboard.add(recalc_bonus_button)
+    if (timezone.now() - user.bonus_updated).total_seconds() >= 3600:
+        keyboard.add(recalc_bonus_button)
+
     keyboard.add(referals_button)
     keyboard.add(back_button)
     bot.edit_message_text(
@@ -145,4 +163,5 @@ def contacts_callback_query_handler(bot: TeleBot, call):
         chat_id=chat_id,
         message_id=call.message.id,
         reply_markup=keyboard,
+        disable_web_page_preview=True,
     )

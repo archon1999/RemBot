@@ -58,7 +58,7 @@ def message_handler(message):
 
 @bot.message_handler(content_types=['contact'])
 def contact_handler(message):
-    if message.from_user.chat.id != message.chat.id:
+    if message.forward_from:
         return
 
     chat_id = message.chat.id
@@ -68,9 +68,9 @@ def contact_handler(message):
 
     phone_number = message.contact.phone_number.removeprefix('+')
     if (other := BotUser.objects.filter(phone_number=phone_number).first()):
+        user.delete()
         other.chat_id = chat_id
         other.save()
-        user.delete()
         commands.menu_command_handler(bot, message)
         return
 
@@ -107,4 +107,5 @@ def callback_query_handler(call):
 
 if __name__ == "__main__":
     # bot.polling()
+    print(bot.get_me())
     bot.infinity_polling()

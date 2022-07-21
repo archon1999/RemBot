@@ -11,7 +11,10 @@ API_KEY = 'c0c5fe906bb14f828316f6e255d17859'
 
 class CustomDict(dict):
     def __getattribute__(self, name):
-        return self[name]
+        try:
+            return super().__getattribute__(name)
+        except:
+            return self[name]
 
 
 def to_custom_dict(obj) -> CustomDict:
@@ -74,9 +77,9 @@ def create_new_client(phone_number, name):
     cmd += f' -d "name={name}"'
     cmd += f' -d "phone[]={phone_number}"'
     cmd += ' -d "ad_campaign_id=46048"'
-    cmd += ''' -d "custom_fields={\\"887059\\": \\"\\"}\" '''
     file = NamedTemporaryFile()
-    proc = subprocess.Popen(cmd, stdout=file, stderr=subprocess.PIPE)
+    proc = subprocess.Popen(cmd, stdout=file, stderr=subprocess.PIPE,
+                            shell=True)
     proc.wait()
     file.seek(0)
     return json.loads(file.read().decode('utf-8'))['data']['id']
@@ -90,21 +93,22 @@ def update_client(id, **data):
     return get_json(prefix, update_data=data).success
 
 
-def get_client_open_orders(rem_id):
+def get_client_open_orders(phone_number):
     prefix = 'order/'
     params = {
         'sort_dir': 'desc',
-        'clients_ids[]': rem_id,
+        'client_phones[]': phone_number,
     }
     data = get_json(prefix, params).data
     orders = list(filter(lambda order: order.status.group <= 5, data))
     return orders
 
 
-def get_client_orders(rem_id, **params):
+def get_client_orders(phone_number, **params):
     prefix = 'order/'
     params.update({
         'sort_dir': 'desc',
-        'clients_ids[]': rem_id,
+        'client_phones[]': phone_number,
     })
-    return get_json(prefix, params).data
+    data = get_json(prefix, params).data
+    return data

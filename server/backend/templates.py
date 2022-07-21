@@ -15,6 +15,9 @@ class Messages():
     RECALC_BONUS_SUCCESS = Template.messages.get(id=25).gettext()
     REFERAL_INFO = Template.messages.get(id=26).gettext()
     CONTACTS = Template.messages.get(id=27).gettext()
+    WAITING_FOR_OPEN_ORDERS = Template.messages.get(id=28).gettext()
+    LINK_ADMINISTRATOR = Template.messages.get(id=29).gettext()
+    LINK_MASTER = Template.messages.get(id=30).gettext()
 
 
 class Keys():

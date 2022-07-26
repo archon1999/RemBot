@@ -40,6 +40,7 @@ def menu_command_handler(bot: TeleBot, message):
             name=client.name,
             phone=client.phone[0],
             email=client.email,
+            bonus=user.bonus,
             address=client.address,
             registration_date=time.ctime(client.created_at // 1000),
         )
@@ -71,6 +72,10 @@ def menu_command_handler(bot: TeleBot, message):
         text=Keys.CONTACTS,
         CallType=CallTypes.Contacts,
     )
+    discounts_button = utils.make_inline_button(
+        text=Keys.DISCOUNTS,
+        CallType=CallTypes.Discounts,
+    )
     keyboard = types.InlineKeyboardMarkup()
     if user.rem_id:
         keyboard.add(open_orders_button)
@@ -80,6 +85,7 @@ def menu_command_handler(bot: TeleBot, message):
     if user.rem_id:
         keyboard.add(referal_program_button)
 
+    keyboard.add(discounts_button)
     keyboard.add(contacts_button)
     bot.send_message(chat_id, utils.text_to_fat(Keys.MENU),
                      reply_markup=keyboard)
@@ -108,6 +114,10 @@ def menu_callback_query_handler(bot: TeleBot, call):
         text=Keys.CONTACTS,
         CallType=CallTypes.Contacts,
     )
+    discounts_button = utils.make_inline_button(
+        text=Keys.DISCOUNTS,
+        CallType=CallTypes.Discounts,
+    )
     keyboard = types.InlineKeyboardMarkup()
     if user.rem_id:
         keyboard.add(open_orders_button)
@@ -117,6 +127,7 @@ def menu_callback_query_handler(bot: TeleBot, call):
     if user.rem_id:
         keyboard.add(referal_program_button)
 
+    keyboard.add(discounts_button)
     keyboard.add(contacts_button)
     bot.edit_message_text(
         chat_id=chat_id,

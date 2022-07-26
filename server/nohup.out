@@ -1,0 +1,913 @@
+Watching for file changes with StatReloader
+[22/Jul/2022 21:57:58] "GET /admin/backend/botuser/ HTTP/1.1" 200 17949
+[22/Jul/2022 21:57:58] "GET /static/admin/css/base.css HTTP/1.1" 200 0
+[22/Jul/2022 21:57:58] "GET /static/jet/css/icons/style.css?v=1.0.8 HTTP/1.1" 200 2248
+[22/Jul/2022 21:57:58] "GET /static/jet/css/vendor.css?v=1.0.8 HTTP/1.1" 200 53889
+[22/Jul/2022 21:57:58] "GET /static/jet/css/themes/default/select2.theme.css?v=1.0.8 HTTP/1.1" 200 23574
+[22/Jul/2022 21:57:58] "GET /static/jet/css/themes/default/jquery-ui.theme.css?v=1.0.8 HTTP/1.1" 200 6760
+[22/Jul/2022 21:57:58] "GET /static/admin/css/changelists.css HTTP/1.1" 200 0
+[22/Jul/2022 21:57:58] "GET /admin/jsi18n/ HTTP/1.1" 200 15618
+[22/Jul/2022 21:57:58] "GET /jet/jsi18n/ HTTP/1.1" 200 14431
+[22/Jul/2022 21:57:58] "GET /static/jet/css/themes/default/base.css?v=1.0.8 HTTP/1.1" 200 178918
+[22/Jul/2022 21:57:58] "GET /static/jet/js/i18n/jquery-ui/datepicker-ru.js?v=1.0.8 HTTP/1.1" 200 1365
+[22/Jul/2022 21:57:58] "GET /static/jet/js/i18n/jquery-ui-timepicker/jquery.ui.timepicker-ru.js?v=1.0.8 HTTP/1.1" 200 520
+[22/Jul/2022 21:57:58] "GET /static/jet/js/i18n/select2/ru.js?v=1.0.8 HTTP/1.1" 200 1127
+[22/Jul/2022 21:57:58] "GET /static/admin/js/jquery.init.js HTTP/1.1" 200 347
+[22/Jul/2022 21:57:58] "GET /static/admin/js/core.js HTTP/1.1" 200 5698
+[22/Jul/2022 21:57:58] "GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 200 0
+[22/Jul/2022 21:57:59] "GET /static/jet/js/build/bundle.min.js?v=1.0.8 HTTP/1.1" 200 417084
+[22/Jul/2022 21:57:59] "GET /static/admin/js/actions.js HTTP/1.1" 200 7872
+[22/Jul/2022 21:57:59] "GET /static/admin/js/urlify.js HTTP/1.1" 200 7902
+[22/Jul/2022 21:57:59] "GET /static/admin/js/prepopulate.js HTTP/1.1" 200 1531
+[22/Jul/2022 21:57:59] "GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.1" 200 288580
+[22/Jul/2022 21:57:59] "GET /static/admin/js/vendor/xregexp/xregexp.js HTTP/1.1" 200 232381
+[22/Jul/2022 21:57:59] "GET /static/jet/css/icons/fonts/jet-icons.ttf?415d6s HTTP/1.1" 200 6240
+Not Found: /favicon.ico
+[22/Jul/2022 21:57:59] "GET /favicon.ico HTTP/1.1" 404 2217
+[22/Jul/2022 23:13:47] "GET /admin/backend/botuser/ HTTP/1.1" 200 17949
+[22/Jul/2022 23:13:47] "GET /admin/jsi18n/ HTTP/1.1" 200 15618
+[22/Jul/2022 23:13:47] "GET /jet/jsi18n/ HTTP/1.1" 200 14431
+Not Found: /favicon.ico
+[22/Jul/2022 23:13:48] "GET /favicon.ico HTTP/1.1" 404 2217
+[22/Jul/2022 23:13:49] "GET /admin/backend/botuser/ HTTP/1.1" 200 17949
+[22/Jul/2022 23:13:49] "GET /admin/jsi18n/ HTTP/1.1" 200 15618
+[22/Jul/2022 23:13:49] "GET /jet/jsi18n/ HTTP/1.1" 200 14431
+[22/Jul/2022 23:13:53] "GET /admin/backend/botuser/ HTTP/1.1" 200 17949
+[22/Jul/2022 23:13:54] "GET /jet/jsi18n/ HTTP/1.1" 200 14431
+[22/Jul/2022 23:13:54] "GET /admin/jsi18n/ HTTP/1.1" 200 15618
+[22/Jul/2022 23:14:07] "GET /admin/backend/botuser/ HTTP/1.1" 200 17949
+[22/Jul/2022 23:14:07] "GET /admin/jsi18n/ HTTP/1.1" 200 15618
+[22/Jul/2022 23:14:07] "GET /jet/jsi18n/ HTTP/1.1" 200 14431
+[22/Jul/2022 23:14:12] "GET /admin/backend/botuser/ HTTP/1.1" 200 17949
+[22/Jul/2022 23:14:12] "GET /jet/jsi18n/ HTTP/1.1" 200 14431
+[22/Jul/2022 23:14:12] "GET /admin/jsi18n/ HTTP/1.1" 200 15618
+[22/Jul/2022 23:14:27] "GET /admin/backend/botuser/25/change/ HTTP/1.1" 200 21173
+[22/Jul/2022 23:14:27] "GET /static/admin/css/forms.css HTTP/1.1" 200 0
+[22/Jul/2022 23:14:27] "GET /jet/jsi18n/ HTTP/1.1" 200 14431
+[22/Jul/2022 23:14:27] "GET /admin/jsi18n/ HTTP/1.1" 200 15618
+[22/Jul/2022 23:14:27] "GET /static/admin/js/calendar.js HTTP/1.1" 200 8466
+[22/Jul/2022 23:14:27] "GET /static/admin/js/admin/DateTimeShortcuts.js HTTP/1.1" 200 0
+[22/Jul/2022 23:14:27] "GET /static/admin/js/prepopulate_init.js HTTP/1.1" 200 492
+[22/Jul/2022 23:14:27] "GET /static/admin/img/icon-changelink.svg HTTP/1.1" 200 380
+[22/Jul/2022 23:14:27] "GET /static/admin/img/icon-addlink.svg HTTP/1.1" 200 331
+[22/Jul/2022 23:14:27] "GET /static/admin/js/change_form.js HTTP/1.1" 200 606
+Not Found: /favicon.ico
+[22/Jul/2022 23:14:28] "GET /favicon.ico HTTP/1.1" 404 2217
+[22/Jul/2022 23:14:42] "POST /admin/backend/botuser/25/change/ HTTP/1.1" 302 0
+[22/Jul/2022 23:14:43] "GET /admin/backend/botuser/ HTTP/1.1" 200 18187
+[22/Jul/2022 23:14:43] "GET /admin/jsi18n/ HTTP/1.1" 200 15618
+[22/Jul/2022 23:14:43] "GET /jet/jsi18n/ HTTP/1.1" 200 14431
+[22/Jul/2022 23:23:27,352] - Broken pipe from ('62.118.73.34', 60964)
+
+[22/Jul/2022 23:23:28,302] - Broken pipe from ('62.118.73.34', 60961)
+
+[22/Jul/2022 23:52:54] "GET /admin/backend/botuser/ HTTP/1.1" 200 17951
+[22/Jul/2022 23:52:55] "GET /admin/jsi18n/ HTTP/1.1" 200 15618
+[22/Jul/2022 23:52:55] "GET /jet/jsi18n/ HTTP/1.1" 200 14431
+Not Found: /favicon.ico
+[22/Jul/2022 23:52:55] "GET /favicon.ico HTTP/1.1" 404 2217
+[23/Jul/2022 00:04:55,423] - Broken pipe from ('62.118.73.34', 45843)
+
+[23/Jul/2022 00:04:57,063] - Broken pipe from ('62.118.73.34', 45858)
+
+[23/Jul/2022 11:45:23] "GET /admin/backend/botuser/ HTTP/1.1" 200 17951
+[23/Jul/2022 11:45:23] "GET /static/admin/css/base.css HTTP/1.1" 200 0
+[23/Jul/2022 11:45:23] "GET /static/jet/css/vendor.css?v=1.0.8 HTTP/1.1" 200 53889
+[23/Jul/2022 11:45:23] "GET /static/jet/css/icons/style.css?v=1.0.8 HTTP/1.1" 200 2248
+[23/Jul/2022 11:45:23] "GET /static/jet/css/themes/default/select2.theme.css?v=1.0.8 HTTP/1.1" 200 23574
+[23/Jul/2022 11:45:23] "GET /static/jet/css/themes/default/jquery-ui.theme.css?v=1.0.8 HTTP/1.1" 200 6760
+[23/Jul/2022 11:45:23] "GET /static/jet/css/themes/default/base.css?v=1.0.8 HTTP/1.1" 200 178918
+[23/Jul/2022 11:45:23] "GET /jet/jsi18n/ HTTP/1.1" 200 14431
+[23/Jul/2022 11:45:23] "GET /static/admin/css/changelists.css HTTP/1.1" 200 0
+[23/Jul/2022 11:45:23] "GET /admin/jsi18n/ HTTP/1.1" 200 15618
+[23/Jul/2022 11:45:23] "GET /static/jet/js/i18n/jquery-ui/datepicker-ru.js?v=1.0.8 HTTP/1.1" 200 1365
+[23/Jul/2022 11:45:23] "GET /static/jet/js/i18n/jquery-ui-timepicker/jquery.ui.timepicker-ru.js?v=1.0.8 HTTP/1.1" 200 520
+[23/Jul/2022 11:45:23] "GET /static/jet/js/i18n/select2/ru.js?v=1.0.8 HTTP/1.1" 200 1127
+[23/Jul/2022 11:45:23] "GET /static/jet/js/build/bundle.min.js?v=1.0.8 HTTP/1.1" 200 417084
+[23/Jul/2022 11:45:23] "GET /static/admin/js/jquery.init.js HTTP/1.1" 200 347
+[23/Jul/2022 11:45:23] "GET /static/admin/js/core.js HTTP/1.1" 200 5698
+[23/Jul/2022 11:45:23] "GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.1" 200 288580
+[23/Jul/2022 11:45:23] "GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 200 0
+[23/Jul/2022 11:45:23] "GET /static/admin/js/actions.js HTTP/1.1" 200 7872
+[23/Jul/2022 11:45:23] "GET /static/admin/js/urlify.js HTTP/1.1" 200 7902
+[23/Jul/2022 11:45:23] "GET /static/admin/js/prepopulate.js HTTP/1.1" 200 1531
+[23/Jul/2022 11:45:23] "GET /static/admin/js/vendor/xregexp/xregexp.js HTTP/1.1" 200 232381
+[23/Jul/2022 11:45:24] "GET /static/jet/css/icons/fonts/jet-icons.ttf?415d6s HTTP/1.1" 200 6240
+Not Found: /favicon.ico
+[23/Jul/2022 11:45:24] "GET /favicon.ico HTTP/1.1" 404 2217
+[23/Jul/2022 12:07:46] "GET /admin/backend/botuser/ HTTP/1.1" 200 17951
+[23/Jul/2022 12:07:46] "GET /admin/jsi18n/ HTTP/1.1" 200 15618
+[23/Jul/2022 12:07:46] "GET /jet/jsi18n/ HTTP/1.1" 200 14431
+Not Found: /favicon.ico
+[23/Jul/2022 12:07:47] "GET /favicon.ico HTTP/1.1" 404 2217
+[23/Jul/2022 12:07:48] "GET /admin/backend/botuser/ HTTP/1.1" 200 17951
+[23/Jul/2022 12:07:48] "GET /jet/jsi18n/ HTTP/1.1" 200 14431
+[23/Jul/2022 12:07:48] "GET /admin/jsi18n/ HTTP/1.1" 200 15618
+[23/Jul/2022 12:12:56] "GET /admin/backend/botuser/ HTTP/1.1" 200 17951
+[23/Jul/2022 12:12:56] "GET /jet/jsi18n/ HTTP/1.1" 200 14431
+[23/Jul/2022 12:12:56] "GET /admin/jsi18n/ HTTP/1.1" 200 15618
+[23/Jul/2022 12:49:58] "GET /admin/backend/botuser/ HTTP/1.1" 200 17951
+[23/Jul/2022 12:49:59] "GET /admin/jsi18n/ HTTP/1.1" 200 15618
+[23/Jul/2022 12:49:59] "GET /jet/jsi18n/ HTTP/1.1" 200 14431
+Not Found: /favicon.ico
+[23/Jul/2022 12:50:00] "GET /favicon.ico HTTP/1.1" 404 2217
+[23/Jul/2022 13:03:30,243] - Broken pipe from ('62.118.80.205', 55452)
+
+[23/Jul/2022 13:03:30,583] - Broken pipe from ('62.118.80.205', 55505)
+
+[23/Jul/2022 13:04:52] "GET /admin/backend/botuser/ HTTP/1.1" 200 17951
+[23/Jul/2022 13:04:52] "GET /admin/jsi18n/ HTTP/1.1" 200 15618
+[23/Jul/2022 13:04:52] "GET /jet/jsi18n/ HTTP/1.1" 200 14431
+Not Found: /favicon.ico
+[23/Jul/2022 13:04:52] "GET /favicon.ico HTTP/1.1" 404 2217
+[23/Jul/2022 13:04:55] "GET /admin/backend/botuser/ HTTP/1.1" 200 17951
+[23/Jul/2022 13:04:56] "GET /jet/jsi18n/ HTTP/1.1" 200 14431
+[23/Jul/2022 13:04:56] "GET /admin/jsi18n/ HTTP/1.1" 200 15618
+[23/Jul/2022 13:04:58] "GET /admin/backend/botuser/ HTTP/1.1" 200 17951
+[23/Jul/2022 13:04:58] "GET /jet/jsi18n/ HTTP/1.1" 200 14431
+[23/Jul/2022 13:04:58] "GET /admin/jsi18n/ HTTP/1.1" 200 15618
+[23/Jul/2022 13:05:04] "GET /admin/backend/botuser/ HTTP/1.1" 200 17951
+[23/Jul/2022 13:05:04] "GET /jet/jsi18n/ HTTP/1.1" 200 14431
+[23/Jul/2022 13:05:04] "GET /admin/jsi18n/ HTTP/1.1" 200 15618
+[23/Jul/2022 13:05:06] "GET /admin/backend/botuser/ HTTP/1.1" 200 17951
+[23/Jul/2022 13:05:07] "GET /jet/jsi18n/ HTTP/1.1" 200 14431
+[23/Jul/2022 13:05:07] "GET /admin/jsi18n/ HTTP/1.1" 200 15618
+[23/Jul/2022 13:05:22] "GET /admin/backend/botuser/ HTTP/1.1" 200 17951
+[23/Jul/2022 13:05:22] "GET /admin/jsi18n/ HTTP/1.1" 200 15618
+[23/Jul/2022 13:05:22] "GET /jet/jsi18n/ HTTP/1.1" 200 14431
+[23/Jul/2022 13:05:26] "GET /admin/backend/botuser/ HTTP/1.1" 200 17951
+[23/Jul/2022 13:05:27] "GET /jet/jsi18n/ HTTP/1.1" 200 14431
+[23/Jul/2022 13:05:27] "GET /admin/jsi18n/ HTTP/1.1" 200 15618
+[23/Jul/2022 13:23:37] "GET /admin/backend/botuser/ HTTP/1.1" 200 17951
+[23/Jul/2022 13:23:37] "GET /admin/jsi18n/ HTTP/1.1" 200 15618
+[23/Jul/2022 13:23:37] "GET /jet/jsi18n/ HTTP/1.1" 200 14431
+Not Found: /favicon.ico
+[23/Jul/2022 13:23:38] "GET /favicon.ico HTTP/1.1" 404 2217
+[23/Jul/2022 13:23:48] "GET /admin/ HTTP/1.1" 200 17280
+[23/Jul/2022 13:23:48] "GET /static/admin/css/dashboard.css HTTP/1.1" 200 0
+[23/Jul/2022 13:23:48] "GET /jet/jsi18n/ HTTP/1.1" 200 14431
+Not Found: /favicon.ico
+[23/Jul/2022 13:23:48] "GET /favicon.ico HTTP/1.1" 404 2217
+[23/Jul/2022 14:21:39] "GET /admin/ HTTP/1.1" 200 17280
+[23/Jul/2022 14:21:39] "GET /jet/jsi18n/ HTTP/1.1" 200 14431
+[23/Jul/2022 14:21:39] "GET /static/jet/css/themes/default/base.css?v=1.0.8 HTTP/1.1" 200 178918
+[23/Jul/2022 14:21:40] "GET /static/jet/js/build/bundle.min.js?v=1.0.8 HTTP/1.1" 200 417084
+Not Found: /favicon.ico
+[23/Jul/2022 14:21:41] "GET /favicon.ico HTTP/1.1" 404 2217
+[23/Jul/2022 14:21:48] "GET /admin/ HTTP/1.1" 200 17280
+[23/Jul/2022 14:21:48] "GET /jet/jsi18n/ HTTP/1.1" 200 14431
+/usr/local/lib/python3.10/site-packages/django/contrib/auth/admin.py changed, reloading.
+Performing system checks...
+
+System check identified no issues (0 silenced).
+July 22, 2022 - 18:49:53
+Django version 4.0.3, using settings 'core.settings'
+Starting development server at http://0.0.0.0:8888/
+Quit the server with CONTROL-C.
+Watching for file changes with StatReloader
+[23/Jul/2022 16:39:24] "GET /admin/ HTTP/1.1" 200 17280
+[23/Jul/2022 16:39:24] "GET /jet/jsi18n/ HTTP/1.1" 200 14431
+Not Found: /favicon.ico
+[23/Jul/2022 16:39:25] "GET /favicon.ico HTTP/1.1" 404 2217
+[23/Jul/2022 16:39:27] "GET /admin/ HTTP/1.1" 200 17280
+[23/Jul/2022 16:39:27] "GET /jet/jsi18n/ HTTP/1.1" 200 14431
+[23/Jul/2022 17:02:46] "GET /admin/ HTTP/1.1" 200 17280
+[23/Jul/2022 17:02:46] "GET /jet/jsi18n/ HTTP/1.1" 200 14431
+Not Found: /favicon.ico
+[23/Jul/2022 17:02:47] "GET /favicon.ico HTTP/1.1" 404 2217
+[23/Jul/2022 17:03:05] "GET /admin/ HTTP/1.1" 200 17280
+[23/Jul/2022 17:03:05] "GET /jet/jsi18n/ HTTP/1.1" 200 14431
+[23/Jul/2022 17:12:05,343] - Broken pipe from ('62.118.80.205', 51674)
+
+[23/Jul/2022 18:40:09] "GET /admin/ HTTP/1.1" 200 17280
+[23/Jul/2022 18:40:10] "GET /static/admin/css/base.css HTTP/1.1" 304 0
+[23/Jul/2022 18:40:10] "GET /static/jet/css/vendor.css?v=1.0.8 HTTP/1.1" 304 0
+[23/Jul/2022 18:40:10] "GET /static/jet/css/themes/default/select2.theme.css?v=1.0.8 HTTP/1.1" 304 0
+[23/Jul/2022 18:40:10] "GET /static/jet/css/icons/style.css?v=1.0.8 HTTP/1.1" 304 0
+[23/Jul/2022 18:40:10] "GET /static/jet/css/themes/default/jquery-ui.theme.css?v=1.0.8 HTTP/1.1" 304 0
+[23/Jul/2022 18:40:10] "GET /jet/jsi18n/ HTTP/1.1" 200 14431
+[23/Jul/2022 18:40:10] "GET /static/jet/js/i18n/jquery-ui/datepicker-ru.js?v=1.0.8 HTTP/1.1" 304 0
+[23/Jul/2022 18:40:10] "GET /static/jet/js/i18n/jquery-ui-timepicker/jquery.ui.timepicker-ru.js?v=1.0.8 HTTP/1.1" 304 0
+[23/Jul/2022 18:40:10] "GET /static/jet/js/i18n/select2/ru.js?v=1.0.8 HTTP/1.1" 304 0
+[23/Jul/2022 18:40:10] "GET /static/jet/css/icons/fonts/jet-icons.ttf?415d6s HTTP/1.1" 304 0
+Not Found: /favicon.ico
+[23/Jul/2022 18:40:10] "GET /favicon.ico HTTP/1.1" 404 2217
+[23/Jul/2022 18:40:13] "GET /admin/ HTTP/1.1" 200 17280
+[23/Jul/2022 18:40:13] "GET /jet/jsi18n/ HTTP/1.1" 200 14431
+[23/Jul/2022 18:40:15] "GET /admin/ HTTP/1.1" 200 17280
+[23/Jul/2022 18:40:15] "GET /jet/jsi18n/ HTTP/1.1" 200 14431
+[23/Jul/2022 18:46:10,378] - Broken pipe from ('62.118.80.205', 39796)
+
+[23/Jul/2022 18:46:10,378] - Broken pipe from ('62.118.80.205', 39797)
+
+[23/Jul/2022 18:46:10,379] - Broken pipe from ('62.118.80.205', 39792)
+
+[23/Jul/2022 18:46:10,387] - Broken pipe from ('62.118.80.205', 39743)
+
+[23/Jul/2022 18:46:15,541] - Broken pipe from ('62.118.80.205', 39793)
+
+[23/Jul/2022 20:17:04] "GET /admin/ HTTP/1.1" 200 17280
+[23/Jul/2022 20:17:04] "GET /jet/jsi18n/ HTTP/1.1" 200 14431
+[23/Jul/2022 20:17:04] "GET /static/admin/css/dashboard.css HTTP/1.1" 304 0
+Not Found: /favicon.ico
+[23/Jul/2022 20:17:05] "GET /favicon.ico HTTP/1.1" 404 2217
+[23/Jul/2022 20:17:07] "GET /admin/ HTTP/1.1" 200 17280
+[23/Jul/2022 20:17:07] "GET /jet/jsi18n/ HTTP/1.1" 200 14431
+[23/Jul/2022 20:23:07,370] - Broken pipe from ('62.118.80.205', 38432)
+
+[23/Jul/2022 20:23:07,370] - Broken pipe from ('62.118.80.205', 38459)
+
+[23/Jul/2022 23:41:00] "GET /admin/ HTTP/1.1" 200 17280
+[23/Jul/2022 23:41:00] "GET /jet/jsi18n/ HTTP/1.1" 200 14431
+[23/Jul/2022 23:41:00] "GET /static/jet/css/themes/default/base.css?v=1.0.8 HTTP/1.1" 304 0
+[23/Jul/2022 23:41:00] "GET /static/jet/js/build/bundle.min.js?v=1.0.8 HTTP/1.1" 304 0
+Not Found: /favicon.ico
+[23/Jul/2022 23:41:01] "GET /favicon.ico HTTP/1.1" 404 2217
+[23/Jul/2022 23:41:03] "GET /admin/ HTTP/1.1" 200 17280
+[23/Jul/2022 23:41:03] "GET /jet/jsi18n/ HTTP/1.1" 200 14431
+[23/Jul/2022 23:48:05] "GET /admin/ HTTP/1.1" 200 17280
+[23/Jul/2022 23:48:05] "GET /jet/jsi18n/ HTTP/1.1" 200 14431
+[23/Jul/2022 23:48:07] "GET /admin/ HTTP/1.1" 200 17280
+[23/Jul/2022 23:48:07] "GET /jet/jsi18n/ HTTP/1.1" 200 14431
+[23/Jul/2022 23:48:09] "GET /admin/ HTTP/1.1" 200 17280
+[23/Jul/2022 23:48:09] "GET /jet/jsi18n/ HTTP/1.1" 200 14431
+[23/Jul/2022 23:48:10] "GET /admin/ HTTP/1.1" 200 17280
+[23/Jul/2022 23:48:10] "GET /jet/jsi18n/ HTTP/1.1" 200 14431
+[23/Jul/2022 23:48:11] "GET /admin/ HTTP/1.1" 200 17280
+[23/Jul/2022 23:48:12] "GET /jet/jsi18n/ HTTP/1.1" 200 14431
+[23/Jul/2022 23:48:16] "GET /admin/backend/botuser/ HTTP/1.1" 200 18989
+[23/Jul/2022 23:48:16] "GET /static/admin/css/changelists.css HTTP/1.1" 304 0
+[23/Jul/2022 23:48:16] "GET /admin/jsi18n/ HTTP/1.1" 200 15618
+[23/Jul/2022 23:48:16] "GET /jet/jsi18n/ HTTP/1.1" 200 14431
+[23/Jul/2022 23:48:16] "GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 304 0
+[23/Jul/2022 23:48:16] "GET /static/admin/js/vendor/xregexp/xregexp.js HTTP/1.1" 200 232381
+[23/Jul/2022 23:48:16] "GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.1" 200 288580
+Not Found: /favicon.ico
+[23/Jul/2022 23:48:17] "GET /favicon.ico HTTP/1.1" 404 2217
+[23/Jul/2022 23:57:25] "GET /admin/backend/botuser/35/change/ HTTP/1.1" 200 21204
+[23/Jul/2022 23:57:25] "GET /static/admin/css/forms.css HTTP/1.1" 200 0
+[23/Jul/2022 23:57:25] "GET /jet/jsi18n/ HTTP/1.1" 200 14431
+[23/Jul/2022 23:57:25] "GET /admin/jsi18n/ HTTP/1.1" 200 15618
+[23/Jul/2022 23:57:25] "GET /static/admin/js/admin/DateTimeShortcuts.js HTTP/1.1" 200 0
+[23/Jul/2022 23:57:25] "GET /static/admin/js/calendar.js HTTP/1.1" 200 8466
+[23/Jul/2022 23:57:25] "GET /static/admin/js/prepopulate_init.js HTTP/1.1" 200 492
+[23/Jul/2022 23:57:25] "GET /static/admin/img/icon-changelink.svg HTTP/1.1" 200 380
+[23/Jul/2022 23:57:25] "GET /static/admin/img/icon-addlink.svg HTTP/1.1" 200 331
+[23/Jul/2022 23:57:25] "GET /static/admin/js/change_form.js HTTP/1.1" 200 606
+Not Found: /favicon.ico
+[23/Jul/2022 23:57:26] "GET /favicon.ico HTTP/1.1" 404 2217
+[23/Jul/2022 23:57:43] "POST /admin/backend/botuser/35/change/ HTTP/1.1" 302 0
+[23/Jul/2022 23:57:44] "GET /admin/backend/botuser/ HTTP/1.1" 200 19237
+[23/Jul/2022 23:57:44] "GET /jet/jsi18n/ HTTP/1.1" 200 14431
+[23/Jul/2022 23:57:44] "GET /admin/jsi18n/ HTTP/1.1" 200 15618
+[23/Jul/2022 23:59:18] "GET /admin/ HTTP/1.1" 200 17313
+[23/Jul/2022 23:59:19] "GET /jet/jsi18n/ HTTP/1.1" 200 14431
+Not Found: /favicon.ico
+[23/Jul/2022 23:59:19] "GET /favicon.ico HTTP/1.1" 404 2217
+[23/Jul/2022 23:59:21] "GET /admin/ HTTP/1.1" 200 17313
+[23/Jul/2022 23:59:21] "GET /jet/jsi18n/ HTTP/1.1" 200 14431
+[23/Jul/2022 23:59:38] "GET /admin/auth/group/ HTTP/1.1" 200 13284
+[23/Jul/2022 23:59:38] "GET /jet/jsi18n/ HTTP/1.1" 200 14431
+[23/Jul/2022 23:59:38] "GET /admin/jsi18n/ HTTP/1.1" 200 15618
+[23/Jul/2022 23:59:38] "GET /static/admin/img/search.svg HTTP/1.1" 200 458
+Not Found: /favicon.ico
+[23/Jul/2022 23:59:39] "GET /favicon.ico HTTP/1.1" 404 2217
+[23/Jul/2022 23:59:43] "GET /admin/auth/user/ HTTP/1.1" 200 16797
+[23/Jul/2022 23:59:43] "GET /admin/jsi18n/ HTTP/1.1" 200 15618
+[23/Jul/2022 23:59:43] "GET /jet/jsi18n/ HTTP/1.1" 200 14431
+[23/Jul/2022 23:59:43] "GET /static/admin/img/icon-yes.svg HTTP/1.1" 200 436
+Not Found: /favicon.ico
+[23/Jul/2022 23:59:44] "GET /favicon.ico HTTP/1.1" 404 2217
+[23/Jul/2022 23:59:53] "GET /admin/backend/botuser/ HTTP/1.1" 200 18991
+[23/Jul/2022 23:59:53] "GET /admin/jsi18n/ HTTP/1.1" 200 15618
+[23/Jul/2022 23:59:53] "GET /jet/jsi18n/ HTTP/1.1" 200 14431
+Not Found: /favicon.ico
+[23/Jul/2022 23:59:53] "GET /favicon.ico HTTP/1.1" 404 2217
+[23/Jul/2022 23:59:55] "GET /admin/backend/botuser/34/change/ HTTP/1.1" 200 21110
+[23/Jul/2022 23:59:55] "GET /jet/jsi18n/ HTTP/1.1" 200 14431
+[23/Jul/2022 23:59:55] "GET /admin/jsi18n/ HTTP/1.1" 200 15618
+Not Found: /favicon.ico
+[23/Jul/2022 23:59:55] "GET /favicon.ico HTTP/1.1" 404 2217
+[24/Jul/2022 00:00:08] "GET /admin/backend/botuser/33/change/ HTTP/1.1" 200 21073
+[24/Jul/2022 00:00:08] "GET /jet/jsi18n/ HTTP/1.1" 200 14431
+[24/Jul/2022 00:00:08] "GET /admin/jsi18n/ HTTP/1.1" 200 15618
+Not Found: /favicon.ico
+[24/Jul/2022 00:00:08] "GET /favicon.ico HTTP/1.1" 404 2217
+[24/Jul/2022 00:00:15] "GET /admin/backend/botuser/34/change/ HTTP/1.1" 200 21110
+[24/Jul/2022 00:00:15] "GET /jet/jsi18n/ HTTP/1.1" 200 14431
+[24/Jul/2022 00:00:15] "GET /admin/jsi18n/ HTTP/1.1" 200 15618
+Not Found: /favicon.ico
+[24/Jul/2022 00:00:15] "GET /favicon.ico HTTP/1.1" 404 2217
+Not Found: /
+[24/Jul/2022 07:35:18] "GET / HTTP/1.1" 404 2166
+Not Found: /
+[24/Jul/2022 07:35:19] "GET / HTTP/1.1" 404 2166
+Not Found: /favicon.ico
+[24/Jul/2022 07:35:19] "GET /favicon.ico HTTP/1.1" 404 2217
+Not Found: /robots.txt
+[24/Jul/2022 07:35:20] "GET /robots.txt HTTP/1.1" 404 2214
+[24/Jul/2022 10:32:53] "GET /admin/backend/botuser/ HTTP/1.1" 200 18991
+[24/Jul/2022 10:32:54] "GET /static/admin/css/base.css HTTP/1.1" 304 0
+[24/Jul/2022 10:32:54] "GET /static/jet/css/icons/style.css?v=1.0.8 HTTP/1.1" 304 0
+[24/Jul/2022 10:32:54] "GET /static/jet/css/vendor.css?v=1.0.8 HTTP/1.1" 304 0
+[24/Jul/2022 10:32:54] "GET /static/jet/css/themes/default/base.css?v=1.0.8 HTTP/1.1" 200 178918
+[24/Jul/2022 10:32:54] "GET /static/jet/css/themes/default/select2.theme.css?v=1.0.8 HTTP/1.1" 304 0
+[24/Jul/2022 10:32:54] "GET /static/jet/css/themes/default/jquery-ui.theme.css?v=1.0.8 HTTP/1.1" 304 0
+[24/Jul/2022 10:32:54] "GET /static/admin/css/changelists.css HTTP/1.1" 304 0
+[24/Jul/2022 10:32:54] "GET /jet/jsi18n/ HTTP/1.1" 200 14431
+[24/Jul/2022 10:32:54] "GET /admin/jsi18n/ HTTP/1.1" 200 15618
+[24/Jul/2022 10:32:54] "GET /static/jet/js/i18n/jquery-ui/datepicker-ru.js?v=1.0.8 HTTP/1.1" 304 0
+[24/Jul/2022 10:32:54] "GET /static/jet/js/i18n/jquery-ui-timepicker/jquery.ui.timepicker-ru.js?v=1.0.8 HTTP/1.1" 304 0
+[24/Jul/2022 10:32:54] "GET /static/jet/js/i18n/select2/ru.js?v=1.0.8 HTTP/1.1" 304 0
+[24/Jul/2022 10:32:54] "GET /static/admin/js/vendor/xregexp/xregexp.js HTTP/1.1" 200 232381
+[24/Jul/2022 10:32:54] "GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.1" 200 288580
+[24/Jul/2022 10:32:54] "GET /static/jet/js/build/bundle.min.js?v=1.0.8 HTTP/1.1" 200 417084
+[24/Jul/2022 10:32:54] "GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 304 0
+[24/Jul/2022 10:32:54] "GET /static/jet/css/icons/fonts/jet-icons.ttf?415d6s HTTP/1.1" 304 0
+Not Found: /favicon.ico
+[24/Jul/2022 10:32:54] "GET /favicon.ico HTTP/1.1" 404 2217
+[24/Jul/2022 10:32:57] "GET /admin/backend/botuser/ HTTP/1.1" 200 18991
+[24/Jul/2022 10:32:57] "GET /jet/jsi18n/ HTTP/1.1" 200 14431
+[24/Jul/2022 10:32:57] "GET /admin/jsi18n/ HTTP/1.1" 200 15618
+[24/Jul/2022 10:33:06] "GET /admin/backend/botuser/ HTTP/1.1" 200 18991
+[24/Jul/2022 10:33:06] "GET /jet/jsi18n/ HTTP/1.1" 200 14431
+[24/Jul/2022 10:33:06] "GET /admin/jsi18n/ HTTP/1.1" 200 15618
+[24/Jul/2022 10:33:21] "GET /admin/backend/botuser/ HTTP/1.1" 200 18991
+[24/Jul/2022 10:33:21] "GET /admin/jsi18n/ HTTP/1.1" 200 15618
+[24/Jul/2022 10:33:21] "GET /jet/jsi18n/ HTTP/1.1" 200 14431
+[24/Jul/2022 10:56:53,380] - Broken pipe from ('80.234.78.59', 6640)
+
+[24/Jul/2022 10:56:53,776] - Broken pipe from ('80.234.78.59', 6641)
+
+[24/Jul/2022 14:40:59] "GET /admin/backend/botuser/ HTTP/1.1" 200 19349
+[24/Jul/2022 14:41:01] "GET /admin/jsi18n/ HTTP/1.1" 200 15618
+[24/Jul/2022 14:41:01] "GET /jet/jsi18n/ HTTP/1.1" 200 14431
+Not Found: /favicon.ico
+[24/Jul/2022 14:41:02] "GET /favicon.ico HTTP/1.1" 404 2217
+[24/Jul/2022 14:41:07] "GET /admin/backend/template/ HTTP/1.1" 200 23091
+[24/Jul/2022 14:41:07] "GET /admin/jsi18n/ HTTP/1.1" 200 15618
+[24/Jul/2022 14:41:07] "GET /jet/jsi18n/ HTTP/1.1" 200 14431
+Not Found: /favicon.ico
+[24/Jul/2022 14:41:07] "GET /favicon.ico HTTP/1.1" 404 2217
+[24/Jul/2022 14:41:10] "GET /admin/backend/template/32/change/ HTTP/1.1" 200 17800
+[24/Jul/2022 14:41:11] "GET /jet/jsi18n/ HTTP/1.1" 200 14431
+[24/Jul/2022 14:41:11] "GET /admin/jsi18n/ HTTP/1.1" 200 15618
+[24/Jul/2022 14:41:11] "GET /static/admin/css/forms.css HTTP/1.1" 304 0
+[24/Jul/2022 14:41:11] "GET /static/ckeditor/ckeditor-init.js HTTP/1.1" 200 1498
+[24/Jul/2022 14:41:18] "GET /static/ckeditor/ckeditor/ckeditor.js HTTP/1.1" 200 752308
+[24/Jul/2022 14:41:21] "GET /static/ckeditor/ckeditor/config.js?t=LAHF HTTP/1.1" 200 338
+[24/Jul/2022 14:41:21] "GET /static/ckeditor/ckeditor/lang/ru.js?t=LAHF HTTP/1.1" 200 27332
+[24/Jul/2022 14:41:21] "GET /static/ckeditor/ckeditor/skins/moono-lisa/editor.css?t=LAHF HTTP/1.1" 200 48239
+Not Found: /favicon.ico
+[24/Jul/2022 14:41:21] "GET /favicon.ico HTTP/1.1" 404 2217
+[24/Jul/2022 14:41:22] "GET /static/ckeditor/ckeditor/styles.js?t=LAHF HTTP/1.1" 200 5579
+[24/Jul/2022 14:41:22] "GET /static/ckeditor/ckeditor/plugins/scayt/skins/moono-lisa/scayt.css?t=LAHF HTTP/1.1" 200 381
+[24/Jul/2022 14:41:22] "GET /static/ckeditor/ckeditor/plugins/scayt/dialogs/dialog.css?t=LAHF HTTP/1.1" 200 419
+[24/Jul/2022 14:41:22] "GET /static/ckeditor/ckeditor/plugins/tableselection/styles/tableselection.css HTTP/1.1" 200 1145
+[24/Jul/2022 14:41:22] "GET /static/ckeditor/ckeditor/plugins/dialog/styles/dialog.css HTTP/1.1" 200 249
+[24/Jul/2022 14:41:22] "GET /static/ckeditor/ckeditor/plugins/copyformatting/styles/copyformatting.css HTTP/1.1" 200 1513
+[24/Jul/2022 14:41:22] "GET /static/ckeditor/ckeditor/contents.css?t=LAHF HTTP/1.1" 200 3094
+[24/Jul/2022 14:41:23] "GET /static/ckeditor/ckeditor/skins/moono-lisa/icons_hidpi.png?t=f6dd30807a HTTP/1.1" 200 38309
+[24/Jul/2022 14:41:42] "POST /admin/backend/template/32/change/ HTTP/1.1" 302 0
+[24/Jul/2022 14:41:44] "GET /admin/backend/template/ HTTP/1.1" 200 23298
+[24/Jul/2022 14:41:45] "POST /admin/backend/template/32/change/ HTTP/1.1" 302 0
+[24/Jul/2022 14:41:45] "GET /admin/backend/template/ HTTP/1.1" 200 23458
+[24/Jul/2022 14:41:45] "GET /jet/jsi18n/ HTTP/1.1" 200 14431
+[24/Jul/2022 14:41:45] "GET /admin/jsi18n/ HTTP/1.1" 200 15618
+[24/Jul/2022 16:30:35] "GET /admin/backend/template/ HTTP/1.1" 200 23091
+[24/Jul/2022 16:30:36] "GET /admin/jsi18n/ HTTP/1.1" 200 15618
+[24/Jul/2022 16:30:39] "GET /jet/jsi18n/ HTTP/1.1" 200 14431
+Not Found: /favicon.ico
+[24/Jul/2022 16:30:41] "GET /favicon.ico HTTP/1.1" 404 2217
+[24/Jul/2022 16:44:26] "GET /admin/backend/template/ HTTP/1.1" 200 23091
+[24/Jul/2022 16:44:27] "GET /admin/jsi18n/ HTTP/1.1" 200 15618
+[24/Jul/2022 16:44:27] "GET /jet/jsi18n/ HTTP/1.1" 200 14431
+Not Found: /favicon.ico
+[24/Jul/2022 16:44:28] "GET /favicon.ico HTTP/1.1" 404 2217
+[24/Jul/2022 16:44:32] "GET /admin/backend/botuser/ HTTP/1.1" 200 19349
+[24/Jul/2022 16:44:33] "GET /admin/jsi18n/ HTTP/1.1" 200 15618
+[24/Jul/2022 16:44:33] "GET /jet/jsi18n/ HTTP/1.1" 200 14431
+Not Found: /favicon.ico
+[24/Jul/2022 16:44:33] "GET /favicon.ico HTTP/1.1" 404 2217
+[24/Jul/2022 16:47:34] "GET /admin/ HTTP/1.1" 200 17289
+[24/Jul/2022 16:47:34] "GET /jet/jsi18n/ HTTP/1.1" 200 14431
+[24/Jul/2022 16:47:34] "GET /static/admin/css/dashboard.css HTTP/1.1" 304 0
+Not Found: /favicon.ico
+[24/Jul/2022 16:47:34] "GET /favicon.ico HTTP/1.1" 404 2217
+[24/Jul/2022 16:47:39] "GET /admin/ HTTP/1.1" 200 17289
+[24/Jul/2022 16:47:39] "GET /jet/jsi18n/ HTTP/1.1" 200 14431
+[24/Jul/2022 16:47:46] "GET /admin/backend/botuser/ HTTP/1.1" 200 19349
+[24/Jul/2022 16:47:47] "GET /admin/jsi18n/ HTTP/1.1" 200 15618
+[24/Jul/2022 16:47:47] "GET /jet/jsi18n/ HTTP/1.1" 200 14431
+Not Found: /favicon.ico
+[24/Jul/2022 16:47:47] "GET /favicon.ico HTTP/1.1" 404 2217
+[24/Jul/2022 17:12:12] "GET /admin/backend/botuser/ HTTP/1.1" 200 19349
+[24/Jul/2022 17:12:13] "GET /admin/jsi18n/ HTTP/1.1" 200 15618
+[24/Jul/2022 17:12:13] "GET /jet/jsi18n/ HTTP/1.1" 200 14431
+Not Found: /favicon.ico
+[24/Jul/2022 17:12:14] "GET /favicon.ico HTTP/1.1" 404 2217
+[24/Jul/2022 17:12:35] "GET /admin/backend/botuser/ HTTP/1.1" 200 19349
+[24/Jul/2022 17:12:35] "GET /admin/jsi18n/ HTTP/1.1" 200 15618
+[24/Jul/2022 17:12:36] "GET /jet/jsi18n/ HTTP/1.1" 200 14431
+[24/Jul/2022 17:30:13,061] - Broken pipe from ('62.118.80.141', 48003)
+
+[24/Jul/2022 17:30:36,333] - Broken pipe from ('62.118.80.141', 48002)
+
+[24/Jul/2022 17:36:06] "GET /admin/backend/botuser/ HTTP/1.1" 200 19349
+[24/Jul/2022 17:36:06] "GET /admin/jsi18n/ HTTP/1.1" 200 15618
+[24/Jul/2022 17:36:06] "GET /jet/jsi18n/ HTTP/1.1" 200 14431
+Not Found: /favicon.ico
+[24/Jul/2022 17:36:07] "GET /favicon.ico HTTP/1.1" 404 2217
+[24/Jul/2022 17:36:20] "GET /admin/backend/botuser/ HTTP/1.1" 200 19349
+[24/Jul/2022 17:36:20] "GET /admin/jsi18n/ HTTP/1.1" 200 15618
+[24/Jul/2022 17:36:20] "GET /jet/jsi18n/ HTTP/1.1" 200 14431
+[24/Jul/2022 21:53:48] "GET /admin/backend/botuser/ HTTP/1.1" 200 19349
+[24/Jul/2022 21:53:48] "GET /static/admin/css/base.css HTTP/1.1" 304 0
+[24/Jul/2022 21:53:48] "GET /static/jet/css/themes/default/base.css?v=1.0.8 HTTP/1.1" 304 0
+[24/Jul/2022 21:53:48] "GET /static/jet/css/vendor.css?v=1.0.8 HTTP/1.1" 304 0
+[24/Jul/2022 21:53:48] "GET /static/jet/css/icons/style.css?v=1.0.8 HTTP/1.1" 304 0
+[24/Jul/2022 21:53:48] "GET /static/jet/css/themes/default/select2.theme.css?v=1.0.8 HTTP/1.1" 304 0
+[24/Jul/2022 21:53:48] "GET /static/jet/css/themes/default/jquery-ui.theme.css?v=1.0.8 HTTP/1.1" 304 0
+[24/Jul/2022 21:53:48] "GET /static/admin/css/changelists.css HTTP/1.1" 304 0
+[24/Jul/2022 21:53:48] "GET /jet/jsi18n/ HTTP/1.1" 200 14431
+[24/Jul/2022 21:53:48] "GET /static/jet/js/build/bundle.min.js?v=1.0.8 HTTP/1.1" 304 0
+[24/Jul/2022 21:53:48] "GET /admin/jsi18n/ HTTP/1.1" 200 15618
+[24/Jul/2022 21:53:48] "GET /static/jet/js/i18n/jquery-ui/datepicker-ru.js?v=1.0.8 HTTP/1.1" 304 0
+[24/Jul/2022 21:53:48] "GET /static/jet/js/i18n/jquery-ui-timepicker/jquery.ui.timepicker-ru.js?v=1.0.8 HTTP/1.1" 304 0
+[24/Jul/2022 21:53:48] "GET /static/jet/js/i18n/select2/ru.js?v=1.0.8 HTTP/1.1" 304 0
+[24/Jul/2022 21:53:48] "GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 304 0
+[24/Jul/2022 21:53:48] "GET /static/jet/css/icons/fonts/jet-icons.ttf?415d6s HTTP/1.1" 304 0
+Not Found: /favicon.ico
+[24/Jul/2022 21:53:49] "GET /favicon.ico HTTP/1.1" 404 2217
+[24/Jul/2022 21:53:51] "GET /admin/backend/botuser/ HTTP/1.1" 200 19349
+[24/Jul/2022 21:53:51] "GET /jet/jsi18n/ HTTP/1.1" 200 14431
+[24/Jul/2022 21:53:51] "GET /admin/jsi18n/ HTTP/1.1" 200 15618
+[24/Jul/2022 23:38:14] "GET /admin/backend/botuser/ HTTP/1.1" 200 19349
+[24/Jul/2022 23:38:14] "GET /admin/jsi18n/ HTTP/1.1" 200 15618
+[24/Jul/2022 23:38:14] "GET /jet/jsi18n/ HTTP/1.1" 200 14431
+Not Found: /favicon.ico
+[24/Jul/2022 23:38:15] "GET /favicon.ico HTTP/1.1" 404 2217
+[24/Jul/2022 23:38:17] "GET /admin/backend/botuser/ HTTP/1.1" 200 19349
+[24/Jul/2022 23:38:17] "GET /jet/jsi18n/ HTTP/1.1" 200 14431
+[24/Jul/2022 23:38:17] "GET /admin/jsi18n/ HTTP/1.1" 200 15618
+[24/Jul/2022 23:38:43] "GET /admin/ HTTP/1.1" 200 17289
+[24/Jul/2022 23:38:44] "GET /jet/jsi18n/ HTTP/1.1" 200 14431
+Not Found: /favicon.ico
+[24/Jul/2022 23:38:44] "GET /favicon.ico HTTP/1.1" 404 2217
+[24/Jul/2022 23:40:15] "GET /admin/ HTTP/1.1" 200 17289
+[24/Jul/2022 23:40:16] "GET /jet/jsi18n/ HTTP/1.1" 200 14431
+Not Found: /
+[25/Jul/2022 04:59:13] "GET / HTTP/1.0" 404 2183
+Not Found: /
+[25/Jul/2022 04:59:14] "OPTIONS / HTTP/1.0" 404 2187
+Not Found: /nice ports,/Trinity.txt.bak
+[25/Jul/2022 04:59:14] "GET /nice%20ports%2C/Tri%6Eity.txt%2ebak HTTP/1.0" 404 2284
+[25/Jul/2022 04:59:19] code 400, message Bad request syntax ('JRMI\x00\x02K')
+[25/Jul/2022 04:59:19] "JRMI K" 400 -
+[25/Jul/2022 04:59:19] code 400, message Bad request version ('INFO')
+[25/Jul/2022 04:59:19] "GET SERVER INFO" 400 -
+[25/Jul/2022 04:59:20] code 400, message Bad request version ('RTSP/1.0')
+[25/Jul/2022 04:59:20] "OPTIONS / RTSP/1.0" 400 -
+[25/Jul/2022 04:59:25] code 400, message Bad request version ('\x00\x01\x97|\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00')
+[25/Jul/2022 04:59:25] "  (rþ          |                    " 400 -
+[25/Jul/2022 04:59:30] code 400, message Bad HTTP/0.9 request type ('\x00')
+[25/Jul/2022 04:59:30] "          versionbind   " 400 -
+[25/Jul/2022 04:59:35] code 400, message Bad HTTP/0.9 request type ('\x00')
+[25/Jul/2022 04:59:35] "            " 400 -
+[25/Jul/2022 04:59:35] code 400, message Bad request syntax ('HELP')
+[25/Jul/2022 04:59:35] "HELP" 400 -
+[25/Jul/2022 04:59:35] code 400, message Bad request syntax ('\x16\x03\x00\x00S\x01\x00\x00O\x03\x00?G×÷º,îê²`~ó\x00ý\x82{¹Õ\x96Èw\x9bæÄÛ<=Ûoï\x10n\x00\x00(\x00\x16\x00\x13\x00')
+[25/Jul/2022 04:59:35] You're accessing the development server over HTTPS, but it only supports HTTP.
+
+[25/Jul/2022 04:59:35] code 400, message Bad HTTP/0.9 request type ('\x03\x00\x00*%à\x00\x00\x00\x00\x00Cookie:')
+[25/Jul/2022 04:59:35] "  *%à     Cookie: mstshash=nmap" 400 -
+[25/Jul/2022 04:59:36] code 400, message Bad request version ('\x00/\x00')
+[25/Jul/2022 04:59:36] You're accessing the development server over HTTPS, but it only supports HTTP.
+
+[25/Jul/2022 04:59:36] code 400, message Bad request syntax ('\x00\x00\x00qj\x81n0\x81k¡\x03\x02\x01\x05¢\x03\x02\x01')
+[25/Jul/2022 04:59:36] "   qjn0k¡¢" 400 -
+[25/Jul/2022 04:59:41] code 400, message Bad request version ('0.12\x00')
+[25/Jul/2022 04:59:41] "   ¤ÿSMBr    @              @     PC NETWORK PROGRAM 1.0 MICROSOFT NETWORKS 1.03 MICROSOFT NETWORKS 3.0 LANMAN1.0 LM1.2X002 Samba NT LANMAN 1.0 NT LM 0.12 " 400 -
+[25/Jul/2022 04:59:46] code 400, message Bad HTTP/0.9 request type ('l\x00')
+[25/Jul/2022 04:59:46] "l          " 400 -
+[25/Jul/2022 04:59:46] code 400, message Bad request syntax ('\x01default')
+[25/Jul/2022 04:59:46] "default" 400 -
+[25/Jul/2022 04:59:46] code 400, message Bad request syntax ('0\x84\x00\x00\x00-\x02\x01\x07c\x84\x00\x00\x00$\x04\x00')
+[25/Jul/2022 04:59:46] "0   -c   $ " 400 -
+[25/Jul/2022 04:59:52] code 400, message Bad HTTP/0.9 request type ('0')
+[25/Jul/2022 04:59:52] "0`  " 400 -
+[25/Jul/2022 04:59:52] code 400, message Bad request version ('SIP/2.0')
+[25/Jul/2022 04:59:52] "OPTIONS sip:nm SIP/2.0" 400 -
+[25/Jul/2022 04:59:57] code 400, message Bad request syntax ('TNMP\x04\x00\x00\x00TNME\x00\x00\x04\x00')
+[25/Jul/2022 04:59:57] "TNMP   TNME   " 400 -
+[25/Jul/2022 05:00:02] code 400, message Bad HTTP/0.9 request type ('\x03\x00\x00')
+[25/Jul/2022 05:00:02] "  à     " 400 -
+[25/Jul/2022 05:00:12] code 400, message Bad HTTP/0.9 request type (':\x00\x00\x00/\x00\x00\x00\x02\x00\x00@\x02\x0f\x00\x01\x00=\x05\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00/\x00\x00\x00\x00\x00\x00\x00\x00\x00@')
+[25/Jul/2022 05:00:12] ":   /     @  =            /         @                 " 400 -
+[25/Jul/2022 05:00:17] code 400, message Bad request version ('\x00{\x000\x000\x000\x000\x00A\x00A\x000\x000\x00-\x000\x00A\x000\x000\x00-\x000\x000\x00a\x000\x00-\x00A\x00A\x000\x00A\x00-\x000\x000\x000\x000\x00A\x000\x00A\x00A\x000\x00A\x00A\x000\x00}\x00\x00\x00àmß_')
+[25/Jul/2022 05:00:17] "  ýÎú°    MMS                    ðððð    N S P l a y e r / 9 . 0 . 0 . 2 9 8 0 ;   { 0 0 0 0 A A 0 0 - 0 A 0 0 - 0 0 a 0 - A A 0 A - 0 0 0 0 A 0 A A 0 A A 0 }   àmß_" 400 -
+[25/Jul/2022 05:00:23] code 400, message Bad HTTP/0.9 request type ('\x00Z\x00\x00\x01\x00\x00\x00\x016\x01,\x00\x00\x08\x00\x7fÿ\x7f\x08\x00\x00\x00\x01\x00')
+[25/Jul/2022 05:00:23] " Z     6,   ÿ      :                4æ           (CONNECT_DATA=(COMMAND=version))" 400 -
+[25/Jul/2022 05:00:28] code 400, message Bad request version ('\x03\x00(\x00\x04ÿ\x08\x00\x01U\x00\x00\x00MSSQLServer\x00H\x0f\x00\x00')
+[25/Jul/2022 05:00:28] " 4            ( ÿ U   MSSQLServer H  " 400 -
+[25/Jul/2022 05:00:33] code 400, message Bad request syntax ('\x00\x03\x00\x01\x00\x00\x00\x00\x00\x00\x00\x02\x00\x00\x00\x00\x0f\x00')
+[25/Jul/2022 05:00:33] "              " 400 -
+[25/Jul/2022 05:00:38] code 400, message Bad request syntax ('GIOP\x01\x00\x01\x00$\x00\x00\x00\x00\x00\x00\x00\x01\x00\x00\x00\x01\x00\x00\x00\x06\x00\x00\x00abcdef\x00\x00\x04\x00\x00\x00get\x00\x00\x00\x00\x00')
+[25/Jul/2022 05:00:38] "GIOP  $                abcdef     get     " 400 -
+[25/Jul/2022 05:01:32,692] - Broken pipe from ('192.162.100.240', 43834)
+
+[25/Jul/2022 05:01:57] code 400, message Bad request version ("\x8dq¹\x96\x00\x9c\x13\x02\x13\x03\x13\x01\x003\x009\x005\x00/À,À0\x00£\x00\x9fÌ©Ì¨ÌªÀ¯À\xadÀ£À\x9fÀ]ÀaÀWÀSÀ+À/\x00¢\x00\x9eÀ®À¬À¢À\x9eÀ\\À`ÀVÀRÀ$À(\x00k\x00jÀsÀw\x00Ä\x00ÃÀ#À'\x00g\x00@ÀrÀv\x00¾\x00½À")
+[25/Jul/2022 05:01:57] You're accessing the development server over HTTPS, but it only supports HTTP.
+
+[25/Jul/2022 05:02:06] code 400, message Bad request version ('\x00/\x00')
+[25/Jul/2022 05:02:06] You're accessing the development server over HTTPS, but it only supports HTTP.
+
+[25/Jul/2022 05:05:09] code 400, message Bad HTTP/0.9 request type ('\x80\x00\x00(.1\x97Î\x00\x00\x00\x00\x00\x00\x00\x02\x00\x01\x86')
+[25/Jul/2022 05:05:09] "  (.1Î                                " 400 -
+[25/Jul/2022 12:03:32] "GET /admin/backend/botuser/ HTTP/1.1" 200 19361
+[25/Jul/2022 12:03:32] "GET /static/admin/css/base.css HTTP/1.1" 304 0
+[25/Jul/2022 12:03:32] "GET /static/jet/css/icons/style.css?v=1.0.8 HTTP/1.1" 304 0
+[25/Jul/2022 12:03:32] "GET /static/jet/css/vendor.css?v=1.0.8 HTTP/1.1" 304 0
+[25/Jul/2022 12:03:32] "GET /static/jet/css/themes/default/base.css?v=1.0.8 HTTP/1.1" 304 0
+[25/Jul/2022 12:03:32] "GET /static/jet/css/themes/default/select2.theme.css?v=1.0.8 HTTP/1.1" 304 0
+[25/Jul/2022 12:03:32] "GET /static/admin/css/changelists.css HTTP/1.1" 304 0
+[25/Jul/2022 12:03:32] "GET /static/jet/css/themes/default/jquery-ui.theme.css?v=1.0.8 HTTP/1.1" 304 0
+[25/Jul/2022 12:03:32] "GET /static/jet/js/build/bundle.min.js?v=1.0.8 HTTP/1.1" 304 0
+[25/Jul/2022 12:03:32] "GET /admin/jsi18n/ HTTP/1.1" 200 15618
+[25/Jul/2022 12:03:32] "GET /jet/jsi18n/ HTTP/1.1" 200 14431
+[25/Jul/2022 12:03:32] "GET /static/jet/js/i18n/jquery-ui-timepicker/jquery.ui.timepicker-ru.js?v=1.0.8 HTTP/1.1" 304 0
+[25/Jul/2022 12:03:32] "GET /static/jet/js/i18n/jquery-ui/datepicker-ru.js?v=1.0.8 HTTP/1.1" 304 0
+[25/Jul/2022 12:03:32] "GET /static/jet/js/i18n/select2/ru.js?v=1.0.8 HTTP/1.1" 304 0
+[25/Jul/2022 12:03:32] "GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 304 0
+[25/Jul/2022 12:03:32] "GET /static/jet/css/icons/fonts/jet-icons.ttf?415d6s HTTP/1.1" 304 0
+[25/Jul/2022 12:03:39] "GET /admin/backend/botuser/ HTTP/1.1" 200 19361
+[25/Jul/2022 12:03:39] "GET /jet/jsi18n/ HTTP/1.1" 200 14431
+[25/Jul/2022 12:03:39] "GET /admin/jsi18n/ HTTP/1.1" 200 15618
+[25/Jul/2022 12:39:32] "GET /admin/backend/botuser/ HTTP/1.1" 200 19361
+[25/Jul/2022 12:39:32] "GET /jet/jsi18n/ HTTP/1.1" 200 14431
+[25/Jul/2022 12:39:32] "GET /admin/jsi18n/ HTTP/1.1" 200 15618
+[25/Jul/2022 12:39:36] "GET /admin/backend/botuser/ HTTP/1.1" 200 19361
+[25/Jul/2022 12:39:36] "GET /admin/jsi18n/ HTTP/1.1" 200 15618
+[25/Jul/2022 12:39:36] "GET /jet/jsi18n/ HTTP/1.1" 200 14431
+[25/Jul/2022 12:44:30] "GET /admin/backend/botuser/ HTTP/1.1" 200 19361
+[25/Jul/2022 12:44:30] "GET /jet/jsi18n/ HTTP/1.1" 200 14431
+[25/Jul/2022 12:44:30] "GET /admin/jsi18n/ HTTP/1.1" 200 15618
+[25/Jul/2022 12:44:34] "GET /admin/backend/botuser/ HTTP/1.1" 200 19361
+[25/Jul/2022 12:44:34] "GET /jet/jsi18n/ HTTP/1.1" 200 14431
+[25/Jul/2022 12:44:34] "GET /admin/jsi18n/ HTTP/1.1" 200 15618
+[25/Jul/2022 12:46:53] "GET /admin/backend/botuser/ HTTP/1.1" 200 19361
+[25/Jul/2022 12:46:53] "GET /admin/jsi18n/ HTTP/1.1" 200 15618
+[25/Jul/2022 12:46:53] "GET /jet/jsi18n/ HTTP/1.1" 200 14431
+[25/Jul/2022 12:46:56] "GET /admin/backend/botuser/ HTTP/1.1" 200 19361
+[25/Jul/2022 12:46:56] "GET /jet/jsi18n/ HTTP/1.1" 200 14431
+[25/Jul/2022 12:46:56] "GET /admin/jsi18n/ HTTP/1.1" 200 15618
+[25/Jul/2022 12:46:57] "GET /admin/backend/botuser/ HTTP/1.1" 200 19361
+[25/Jul/2022 12:46:57] "GET /jet/jsi18n/ HTTP/1.1" 200 14431
+[25/Jul/2022 12:46:57] "GET /admin/jsi18n/ HTTP/1.1" 200 15618
+[25/Jul/2022 12:50:24] "GET /admin/backend/botuser/ HTTP/1.1" 200 19361
+[25/Jul/2022 12:50:25] "GET /admin/jsi18n/ HTTP/1.1" 200 15618
+[25/Jul/2022 12:50:25] "GET /jet/jsi18n/ HTTP/1.1" 200 14431
+[25/Jul/2022 12:53:30] "GET /admin/backend/botuser/ HTTP/1.1" 200 19361
+[25/Jul/2022 12:53:30] "GET /jet/jsi18n/ HTTP/1.1" 200 14431
+[25/Jul/2022 12:53:30] "GET /admin/jsi18n/ HTTP/1.1" 200 15618
+[25/Jul/2022 12:53:30] "GET /admin/backend/template/ HTTP/1.1" 200 23103
+[25/Jul/2022 12:53:30] "GET /jet/jsi18n/ HTTP/1.1" 200 14431
+[25/Jul/2022 12:53:30] "GET /admin/jsi18n/ HTTP/1.1" 200 15618
+[25/Jul/2022 12:53:31] "GET /admin/backend/botuser/ HTTP/1.1" 200 19361
+[25/Jul/2022 12:53:31] "GET /admin/jsi18n/ HTTP/1.1" 200 15618
+[25/Jul/2022 12:53:31] "GET /jet/jsi18n/ HTTP/1.1" 200 14431
+[25/Jul/2022 12:53:33] "GET /admin/backend/botuser/ HTTP/1.1" 200 19361
+[25/Jul/2022 12:53:33] "GET /jet/jsi18n/ HTTP/1.1" 200 14431
+[25/Jul/2022 12:53:33] "GET /admin/jsi18n/ HTTP/1.1" 200 15618
+[25/Jul/2022 12:53:34] "GET /admin/backend/template/ HTTP/1.1" 200 23103
+[25/Jul/2022 12:53:34] "GET /admin/jsi18n/ HTTP/1.1" 200 15618
+[25/Jul/2022 12:53:34] "GET /jet/jsi18n/ HTTP/1.1" 200 14431
+[25/Jul/2022 13:04:22] "GET /admin/backend/botuser/ HTTP/1.1" 200 19361
+[25/Jul/2022 13:04:22] "GET /jet/jsi18n/ HTTP/1.1" 200 14431
+[25/Jul/2022 13:04:22] "GET /admin/jsi18n/ HTTP/1.1" 200 15618
+[25/Jul/2022 13:04:24] "GET /admin/backend/botuser/ HTTP/1.1" 200 19361
+[25/Jul/2022 13:04:24] "GET /admin/jsi18n/ HTTP/1.1" 200 15618
+[25/Jul/2022 13:04:24] "GET /jet/jsi18n/ HTTP/1.1" 200 14431
+[25/Jul/2022 13:13:20] "GET /admin/backend/botuser/ HTTP/1.1" 200 19361
+[25/Jul/2022 13:13:20] "GET /jet/jsi18n/ HTTP/1.1" 200 14431
+[25/Jul/2022 13:13:20] "GET /admin/jsi18n/ HTTP/1.1" 200 15618
+[25/Jul/2022 13:55:38] "GET /admin/ HTTP/1.1" 200 17289
+[25/Jul/2022 13:55:38] "GET /static/jet/css/vendor.css?v=1.0.8 HTTP/1.1" 200 53889
+[25/Jul/2022 13:55:38] "GET /static/admin/css/base.css HTTP/1.1" 304 0
+[25/Jul/2022 13:55:38] "GET /static/jet/css/icons/style.css?v=1.0.8 HTTP/1.1" 304 0
+[25/Jul/2022 13:55:38] "GET /static/jet/css/themes/default/select2.theme.css?v=1.0.8 HTTP/1.1" 200 23574
+[25/Jul/2022 13:55:38] "GET /static/jet/css/themes/default/jquery-ui.theme.css?v=1.0.8 HTTP/1.1" 200 6760
+[25/Jul/2022 13:55:39] "GET /static/admin/css/dashboard.css HTTP/1.1" 304 0
+[25/Jul/2022 13:55:39] "GET /jet/jsi18n/ HTTP/1.1" 200 14431
+[25/Jul/2022 13:55:39] "GET /static/jet/css/themes/default/base.css?v=1.0.8 HTTP/1.1" 200 178918
+[25/Jul/2022 13:55:39] "GET /static/jet/js/i18n/jquery-ui/datepicker-ru.js?v=1.0.8 HTTP/1.1" 304 0
+[25/Jul/2022 13:55:39] "GET /static/jet/js/i18n/jquery-ui-timepicker/jquery.ui.timepicker-ru.js?v=1.0.8 HTTP/1.1" 304 0
+[25/Jul/2022 13:55:39] "GET /static/jet/js/i18n/select2/ru.js?v=1.0.8 HTTP/1.1" 304 0
+[25/Jul/2022 13:55:39] "GET /static/jet/js/build/bundle.min.js?v=1.0.8 HTTP/1.1" 200 417084
+[25/Jul/2022 13:55:39] "GET /static/jet/css/icons/fonts/jet-icons.ttf?415d6s HTTP/1.1" 200 6240
+Not Found: /favicon.ico
+[25/Jul/2022 13:55:39] "GET /favicon.ico HTTP/1.1" 404 2217
+[25/Jul/2022 13:55:42] "GET /admin/ HTTP/1.1" 200 17289
+[25/Jul/2022 13:55:42] "GET /jet/jsi18n/ HTTP/1.1" 200 14431
+[25/Jul/2022 13:55:47] "GET /admin/backend/botuser/ HTTP/1.1" 200 19349
+[25/Jul/2022 13:55:47] "GET /admin/jsi18n/ HTTP/1.1" 200 15618
+[25/Jul/2022 13:55:47] "GET /jet/jsi18n/ HTTP/1.1" 200 14431
+[25/Jul/2022 13:55:47] "GET /static/admin/css/changelists.css HTTP/1.1" 304 0
+[25/Jul/2022 13:55:47] "GET /static/admin/js/core.js HTTP/1.1" 200 5698
+[25/Jul/2022 13:55:47] "GET /static/admin/js/actions.js HTTP/1.1" 200 7872
+[25/Jul/2022 13:55:47] "GET /static/admin/js/urlify.js HTTP/1.1" 200 7902
+[25/Jul/2022 13:55:47] "GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 304 0
+[25/Jul/2022 13:55:47] "GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.1" 200 288580
+[25/Jul/2022 13:55:47] "GET /static/admin/js/vendor/xregexp/xregexp.js HTTP/1.1" 200 232381
+Not Found: /favicon.ico
+[25/Jul/2022 13:55:47] "GET /favicon.ico HTTP/1.1" 404 2217
+[25/Jul/2022 15:11:59] "GET /admin/backend/botuser/ HTTP/1.1" 200 19349
+[25/Jul/2022 15:11:59] "GET /admin/jsi18n/ HTTP/1.1" 200 15618
+[25/Jul/2022 15:11:59] "GET /jet/jsi18n/ HTTP/1.1" 200 14431
+Not Found: /favicon.ico
+[25/Jul/2022 15:11:59] "GET /favicon.ico HTTP/1.1" 404 2217
+[25/Jul/2022 15:12:02] "GET /admin/backend/botuser/ HTTP/1.1" 200 19349
+[25/Jul/2022 15:12:02] "GET /admin/jsi18n/ HTTP/1.1" 200 15618
+[25/Jul/2022 15:12:02] "GET /jet/jsi18n/ HTTP/1.1" 200 14431
+[25/Jul/2022 15:12:04] "GET /admin/backend/botuser/ HTTP/1.1" 200 19349
+[25/Jul/2022 15:12:04] "GET /jet/jsi18n/ HTTP/1.1" 200 14431
+[25/Jul/2022 15:12:04] "GET /admin/jsi18n/ HTTP/1.1" 200 15618
+[25/Jul/2022 15:16:58] "GET /admin/backend/botuser/ HTTP/1.1" 200 19349
+[25/Jul/2022 15:16:58] "GET /admin/jsi18n/ HTTP/1.1" 200 15618
+[25/Jul/2022 15:16:58] "GET /jet/jsi18n/ HTTP/1.1" 200 14431
+[25/Jul/2022 15:17:00] "GET /admin/backend/botuser/ HTTP/1.1" 200 19349
+[25/Jul/2022 15:17:00] "GET /admin/jsi18n/ HTTP/1.1" 200 15618
+[25/Jul/2022 15:17:00] "GET /jet/jsi18n/ HTTP/1.1" 200 14431
+[25/Jul/2022 15:32:30] "GET /admin/backend/botuser/ HTTP/1.1" 200 19349
+[25/Jul/2022 15:32:30] "GET /admin/jsi18n/ HTTP/1.1" 200 15618
+[25/Jul/2022 15:32:30] "GET /jet/jsi18n/ HTTP/1.1" 200 14431
+Not Found: /favicon.ico
+[25/Jul/2022 15:32:30] "GET /favicon.ico HTTP/1.1" 404 2217
+[25/Jul/2022 15:32:33] "GET /admin/backend/botuser/ HTTP/1.1" 200 19349
+[25/Jul/2022 15:32:33] "GET /admin/jsi18n/ HTTP/1.1" 200 15618
+[25/Jul/2022 15:32:33] "GET /jet/jsi18n/ HTTP/1.1" 200 14431
+[25/Jul/2022 15:32:35] "GET /admin/backend/botuser/ HTTP/1.1" 200 19349
+[25/Jul/2022 15:32:35] "GET /admin/jsi18n/ HTTP/1.1" 200 15618
+[25/Jul/2022 15:32:35] "GET /jet/jsi18n/ HTTP/1.1" 200 14431
+[25/Jul/2022 15:40:16] "GET /admin/backend/botuser/ HTTP/1.1" 200 19349
+[25/Jul/2022 15:40:16] "GET /admin/jsi18n/ HTTP/1.1" 200 15618
+[25/Jul/2022 15:40:16] "GET /jet/jsi18n/ HTTP/1.1" 200 14431
+Not Found: /favicon.ico
+[25/Jul/2022 15:40:16] "GET /favicon.ico HTTP/1.1" 404 2217
+[25/Jul/2022 15:40:18] "GET /admin/backend/botuser/ HTTP/1.1" 200 19349
+[25/Jul/2022 15:40:18] "GET /jet/jsi18n/ HTTP/1.1" 200 14431
+[25/Jul/2022 15:40:18] "GET /admin/jsi18n/ HTTP/1.1" 200 15618
+[25/Jul/2022 15:40:20] "GET /admin/backend/botuser/ HTTP/1.1" 200 19349
+[25/Jul/2022 15:40:20] "GET /admin/jsi18n/ HTTP/1.1" 200 15618
+[25/Jul/2022 15:40:20] "GET /jet/jsi18n/ HTTP/1.1" 200 14431
+[25/Jul/2022 15:44:02] "GET /admin/backend/botuser/ HTTP/1.1" 200 19349
+[25/Jul/2022 15:44:02] "GET /admin/jsi18n/ HTTP/1.1" 200 15618
+[25/Jul/2022 15:44:02] "GET /jet/jsi18n/ HTTP/1.1" 200 14431
+[25/Jul/2022 15:46:28] "GET /admin/backend/botuser/ HTTP/1.1" 200 19349
+[25/Jul/2022 15:46:28] "GET /admin/jsi18n/ HTTP/1.1" 200 15618
+[25/Jul/2022 15:46:28] "GET /jet/jsi18n/ HTTP/1.1" 200 14431
+[25/Jul/2022 15:46:30] "GET /admin/backend/botuser/ HTTP/1.1" 200 19349
+[25/Jul/2022 15:46:30] "GET /jet/jsi18n/ HTTP/1.1" 200 14431
+[25/Jul/2022 15:46:30] "GET /admin/jsi18n/ HTTP/1.1" 200 15618
+[25/Jul/2022 16:14:58,995] - Broken pipe from ('62.118.81.91', 17816)
+
+[25/Jul/2022 16:41:46] "GET /admin/backend/botuser/ HTTP/1.1" 200 19349
+[25/Jul/2022 16:41:46] "GET /admin/jsi18n/ HTTP/1.1" 200 15618
+[25/Jul/2022 16:41:46] "GET /jet/jsi18n/ HTTP/1.1" 200 14431
+Not Found: /favicon.ico
+[25/Jul/2022 16:41:46] "GET /favicon.ico HTTP/1.1" 404 2217
+[25/Jul/2022 16:41:49] "GET /admin/backend/botuser/ HTTP/1.1" 200 19349
+[25/Jul/2022 16:41:49] "GET /admin/jsi18n/ HTTP/1.1" 200 15618
+[25/Jul/2022 16:41:49] "GET /jet/jsi18n/ HTTP/1.1" 200 14431
+[25/Jul/2022 16:41:51] "GET /admin/backend/botuser/ HTTP/1.1" 200 19349
+[25/Jul/2022 16:41:51] "GET /jet/jsi18n/ HTTP/1.1" 200 14431
+[25/Jul/2022 16:41:51] "GET /admin/jsi18n/ HTTP/1.1" 200 15618
+[25/Jul/2022 16:50:51,611] - Broken pipe from ('62.118.81.91', 42168)
+
+[25/Jul/2022 17:30:05] "GET /admin/backend/botuser/ HTTP/1.1" 200 19349
+[25/Jul/2022 17:30:05] "GET /jet/jsi18n/ HTTP/1.1" 200 14431
+[25/Jul/2022 17:30:05] "GET /admin/jsi18n/ HTTP/1.1" 200 15618
+Not Found: /favicon.ico
+[25/Jul/2022 17:30:05] "GET /favicon.ico HTTP/1.1" 404 2217
+[25/Jul/2022 17:30:27] "GET /admin/backend/botuser/ HTTP/1.1" 200 19349
+[25/Jul/2022 17:30:27] "GET /admin/jsi18n/ HTTP/1.1" 200 15618
+[25/Jul/2022 17:30:27] "GET /jet/jsi18n/ HTTP/1.1" 200 14431
+[25/Jul/2022 17:37:57,359] - Broken pipe from ('62.118.81.91', 8394)
+
+[25/Jul/2022 19:40:08] "GET /admin/backend/botuser/ HTTP/1.1" 200 19349
+[25/Jul/2022 19:40:08] "GET /admin/jsi18n/ HTTP/1.1" 200 15618
+[25/Jul/2022 19:40:08] "GET /jet/jsi18n/ HTTP/1.1" 200 14431
+[25/Jul/2022 19:40:08] "GET /static/jet/js/build/bundle.min.js?v=1.0.8 HTTP/1.1" 200 417084
+Not Found: /favicon.ico
+[25/Jul/2022 19:40:09] "GET /favicon.ico HTTP/1.1" 404 2217
+[25/Jul/2022 19:40:17] "GET /admin/backend/botuser/ HTTP/1.1" 200 19349
+[25/Jul/2022 19:40:17] "GET /jet/jsi18n/ HTTP/1.1" 200 14431
+[25/Jul/2022 19:40:17] "GET /admin/jsi18n/ HTTP/1.1" 200 15618
+[25/Jul/2022 19:46:40] "GET /admin/backend/botuser/ HTTP/1.1" 200 19349
+[25/Jul/2022 19:46:40] "GET /admin/jsi18n/ HTTP/1.1" 200 15618
+[25/Jul/2022 19:46:40] "GET /jet/jsi18n/ HTTP/1.1" 200 14431
+Not Found: /favicon.ico
+[25/Jul/2022 19:46:40] "GET /favicon.ico HTTP/1.1" 404 2217
+[25/Jul/2022 19:46:43] "GET /admin/backend/botuser/ HTTP/1.1" 200 19349
+[25/Jul/2022 19:46:43] "GET /admin/jsi18n/ HTTP/1.1" 200 15618
+[25/Jul/2022 19:46:43] "GET /jet/jsi18n/ HTTP/1.1" 200 14431
+[25/Jul/2022 19:52:12] "GET /admin/ HTTP/1.1" 200 17289
+[25/Jul/2022 19:52:12] "GET /jet/jsi18n/ HTTP/1.1" 200 14431
+Not Found: /favicon.ico
+[25/Jul/2022 19:52:12] "GET /favicon.ico HTTP/1.1" 404 2217
+[25/Jul/2022 19:52:25] "GET /admin/backend/template/ HTTP/1.1" 200 23091
+[25/Jul/2022 19:52:25] "GET /admin/jsi18n/ HTTP/1.1" 200 15618
+[25/Jul/2022 19:52:25] "GET /jet/jsi18n/ HTTP/1.1" 200 14431
+Not Found: /favicon.ico
+[25/Jul/2022 19:52:25] "GET /favicon.ico HTTP/1.1" 404 2217
+[25/Jul/2022 19:53:03] "GET /admin/backend/template/32/change/ HTTP/1.1" 200 17808
+[25/Jul/2022 19:53:03] "GET /jet/jsi18n/ HTTP/1.1" 200 14431
+[25/Jul/2022 19:53:03] "GET /static/admin/css/forms.css HTTP/1.1" 304 0
+[25/Jul/2022 19:53:03] "GET /admin/jsi18n/ HTTP/1.1" 200 15618
+[25/Jul/2022 19:53:05] "GET /static/ckeditor/ckeditor/ckeditor.js HTTP/1.1" 200 752308
+Not Found: /favicon.ico
+[25/Jul/2022 19:53:06] "GET /favicon.ico HTTP/1.1" 404 2217
+[25/Jul/2022 19:53:06] "GET /static/ckeditor/ckeditor/lang/ru.js?t=LAHF HTTP/1.1" 200 27332
+[25/Jul/2022 19:53:06] "GET /static/ckeditor/ckeditor/skins/moono-lisa/editor.css?t=LAHF HTTP/1.1" 200 48239
+[25/Jul/2022 19:53:06] "GET /static/ckeditor/ckeditor/styles.js?t=LAHF HTTP/1.1" 200 5579
+[25/Jul/2022 19:53:06] "GET /static/ckeditor/ckeditor/skins/moono-lisa/icons_hidpi.png?t=f6dd30807a HTTP/1.1" 200 38309
+[25/Jul/2022 19:53:06] "GET /static/ckeditor/ckeditor/contents.css?t=LAHF HTTP/1.1" 200 3094
+[25/Jul/2022 19:55:42] "POST /admin/backend/template/32/change/ HTTP/1.1" 302 0
+[25/Jul/2022 19:55:42] "GET /admin/backend/template/ HTTP/1.1" 200 23298
+[25/Jul/2022 19:55:42] "GET /jet/jsi18n/ HTTP/1.1" 200 14431
+[25/Jul/2022 19:55:42] "GET /admin/jsi18n/ HTTP/1.1" 200 15618
+[25/Jul/2022 19:55:54] "GET /admin/backend/template/12/change/ HTTP/1.1" 200 17369
+[25/Jul/2022 19:55:54] "GET /jet/jsi18n/ HTTP/1.1" 200 14431
+[25/Jul/2022 19:55:54] "GET /admin/jsi18n/ HTTP/1.1" 200 15618
+Not Found: /favicon.ico
+[25/Jul/2022 19:55:54] "GET /favicon.ico HTTP/1.1" 404 2217
+[25/Jul/2022 19:56:44] "GET /admin/backend/template/ HTTP/1.1" 200 23091
+[25/Jul/2022 19:56:44] "GET /jet/jsi18n/ HTTP/1.1" 200 14431
+[25/Jul/2022 19:56:44] "GET /admin/jsi18n/ HTTP/1.1" 200 15618
+Not Found: /favicon.ico
+[25/Jul/2022 19:56:44] "GET /favicon.ico HTTP/1.1" 404 2217
+[25/Jul/2022 19:56:46] "GET /admin/backend/template/32/change/ HTTP/1.1" 200 17925
+[25/Jul/2022 19:56:46] "GET /jet/jsi18n/ HTTP/1.1" 200 14431
+[25/Jul/2022 19:56:46] "GET /admin/jsi18n/ HTTP/1.1" 200 15618
+Not Found: /favicon.ico
+[25/Jul/2022 19:56:46] "GET /favicon.ico HTTP/1.1" 404 2217
+[25/Jul/2022 20:00:18] "POST /admin/backend/template/32/change/ HTTP/1.1" 302 0
+[25/Jul/2022 20:00:19] "GET /admin/backend/template/ HTTP/1.1" 200 23298
+[25/Jul/2022 20:00:19] "GET /jet/jsi18n/ HTTP/1.1" 200 14431
+[25/Jul/2022 20:00:19] "GET /admin/jsi18n/ HTTP/1.1" 200 15618
+[25/Jul/2022 20:00:32] "GET /admin/backend/template/26/change/ HTTP/1.1" 200 17200
+[25/Jul/2022 20:00:32] "GET /jet/jsi18n/ HTTP/1.1" 200 14431
+[25/Jul/2022 20:00:32] "GET /admin/jsi18n/ HTTP/1.1" 200 15618
+Not Found: /favicon.ico
+[25/Jul/2022 20:00:33] "GET /favicon.ico HTTP/1.1" 404 2217
+[25/Jul/2022 20:00:43] "GET /admin/backend/template/ HTTP/1.1" 200 23091
+[25/Jul/2022 20:00:43] "GET /jet/jsi18n/ HTTP/1.1" 200 14431
+[25/Jul/2022 20:00:43] "GET /admin/jsi18n/ HTTP/1.1" 200 15618
+Not Found: /favicon.ico
+[25/Jul/2022 20:00:44] "GET /favicon.ico HTTP/1.1" 404 2217
+[25/Jul/2022 20:01:51] "GET /admin/backend/template/11/change/ HTTP/1.1" 200 17264
+[25/Jul/2022 20:01:51] "GET /jet/jsi18n/ HTTP/1.1" 200 14431
+[25/Jul/2022 20:01:51] "GET /admin/jsi18n/ HTTP/1.1" 200 15618
+Not Found: /favicon.ico
+[25/Jul/2022 20:01:51] "GET /favicon.ico HTTP/1.1" 404 2217
+[25/Jul/2022 20:02:10] "GET /admin/backend/template/ HTTP/1.1" 200 23091
+[25/Jul/2022 20:02:10] "GET /jet/jsi18n/ HTTP/1.1" 200 14431
+[25/Jul/2022 20:02:10] "GET /admin/jsi18n/ HTTP/1.1" 200 15618
+Not Found: /favicon.ico
+[25/Jul/2022 20:02:10] "GET /favicon.ico HTTP/1.1" 404 2217
+[25/Jul/2022 20:02:37] "GET /admin/backend/template/10/change/ HTTP/1.1" 200 17135
+[25/Jul/2022 20:02:38] "GET /jet/jsi18n/ HTTP/1.1" 200 14431
+[25/Jul/2022 20:02:38] "GET /admin/jsi18n/ HTTP/1.1" 200 15618
+Not Found: /favicon.ico
+[25/Jul/2022 20:02:38] "GET /favicon.ico HTTP/1.1" 404 2217
+[25/Jul/2022 20:02:44] "GET /admin/backend/template/ HTTP/1.1" 200 23091
+[25/Jul/2022 20:02:45] "GET /jet/jsi18n/ HTTP/1.1" 200 14431
+[25/Jul/2022 20:02:45] "GET /admin/jsi18n/ HTTP/1.1" 200 15618
+Not Found: /favicon.ico
+[25/Jul/2022 20:02:45] "GET /favicon.ico HTTP/1.1" 404 2217
+[25/Jul/2022 20:03:00] "GET /admin/backend/template/21/change/ HTTP/1.1" 200 17934
+[25/Jul/2022 20:03:02] "GET /jet/jsi18n/ HTTP/1.1" 200 14431
+[25/Jul/2022 20:03:02] "GET /admin/jsi18n/ HTTP/1.1" 200 15618
+Not Found: /favicon.ico
+[25/Jul/2022 20:03:08] "GET /favicon.ico HTTP/1.1" 404 2217
+[25/Jul/2022 20:56:30] "GET /admin/backend/template/21/change/ HTTP/1.1" 200 17934
+[25/Jul/2022 20:56:30] "GET /jet/jsi18n/ HTTP/1.1" 200 14431
+[25/Jul/2022 20:56:30] "GET /admin/jsi18n/ HTTP/1.1" 200 15618
+Not Found: /favicon.ico
+[25/Jul/2022 20:56:31] "GET /favicon.ico HTTP/1.1" 404 2217
+[25/Jul/2022 20:56:48] "GET /admin/backend/botuser/ HTTP/1.1" 200 19349
+[25/Jul/2022 20:56:48] "GET /jet/jsi18n/ HTTP/1.1" 200 14431
+[25/Jul/2022 20:56:48] "GET /admin/jsi18n/ HTTP/1.1" 200 15618
+Not Found: /favicon.ico
+[25/Jul/2022 20:56:49] "GET /favicon.ico HTTP/1.1" 404 2217
+[25/Jul/2022 20:56:51] "GET /admin/backend/botuser/ HTTP/1.1" 200 19349
+[25/Jul/2022 20:56:51] "GET /admin/jsi18n/ HTTP/1.1" 200 15618
+[25/Jul/2022 20:56:51] "GET /jet/jsi18n/ HTTP/1.1" 200 14431
+[25/Jul/2022 21:12:16] "GET /admin/backend/botuser/ HTTP/1.1" 200 19349
+[25/Jul/2022 21:12:16] "GET /admin/jsi18n/ HTTP/1.1" 200 15618
+[25/Jul/2022 21:12:16] "GET /jet/jsi18n/ HTTP/1.1" 200 14431
+Not Found: /favicon.ico
+[25/Jul/2022 21:12:16] "GET /favicon.ico HTTP/1.1" 404 2217
+[25/Jul/2022 21:12:26] "GET /admin/backend/botuser/ HTTP/1.1" 200 19349
+[25/Jul/2022 21:12:27] "GET /admin/jsi18n/ HTTP/1.1" 200 15618
+[25/Jul/2022 21:12:27] "GET /jet/jsi18n/ HTTP/1.1" 200 14431
+[25/Jul/2022 21:16:56,258] - Broken pipe from ('62.118.72.168', 35819)
+
+[25/Jul/2022 22:10:16] "GET /admin/backend/botuser/ HTTP/1.1" 200 19707
+[25/Jul/2022 22:10:16] "GET /admin/jsi18n/ HTTP/1.1" 200 15618
+[25/Jul/2022 22:10:16] "GET /jet/jsi18n/ HTTP/1.1" 200 14431
+[26/Jul/2022 01:12:34] "GET /admin/backend/botuser/ HTTP/1.1" 200 19707
+[26/Jul/2022 01:12:34] "GET /jet/jsi18n/ HTTP/1.1" 200 14431
+[26/Jul/2022 01:12:34] "GET /admin/jsi18n/ HTTP/1.1" 200 15618
+Not Found: /favicon.ico
+[26/Jul/2022 01:12:35] "GET /favicon.ico HTTP/1.1" 404 2217
+[26/Jul/2022 01:12:37] "GET /admin/backend/botuser/ HTTP/1.1" 200 19707
+[26/Jul/2022 01:12:37] "GET /admin/jsi18n/ HTTP/1.1" 200 15618
+[26/Jul/2022 01:12:37] "GET /jet/jsi18n/ HTTP/1.1" 200 14431
+[26/Jul/2022 01:12:46] "GET /admin/backend/botuser/37/change/ HTTP/1.1" 200 21401
+[26/Jul/2022 01:12:46] "GET /jet/jsi18n/ HTTP/1.1" 200 14431
+[26/Jul/2022 01:12:46] "GET /admin/jsi18n/ HTTP/1.1" 200 15618
+[26/Jul/2022 01:12:46] "GET /static/admin/js/calendar.js HTTP/1.1" 200 8466
+[26/Jul/2022 01:12:46] "GET /static/admin/js/admin/DateTimeShortcuts.js HTTP/1.1" 304 0
+Not Found: /favicon.ico
+[26/Jul/2022 01:12:46] "GET /favicon.ico HTTP/1.1" 404 2217
+[26/Jul/2022 01:13:09] "GET /admin/backend/botuser/37/history/ HTTP/1.1" 200 11972
+[26/Jul/2022 01:13:09] "GET /jet/jsi18n/ HTTP/1.1" 200 14431
+Not Found: /favicon.ico
+[26/Jul/2022 01:13:10] "GET /favicon.ico HTTP/1.1" 404 2217
+[26/Jul/2022 01:13:18] "GET /admin/backend/botuser/ HTTP/1.1" 200 19707
+[26/Jul/2022 01:13:18] "GET /jet/jsi18n/ HTTP/1.1" 200 14431
+[26/Jul/2022 01:13:18] "GET /admin/jsi18n/ HTTP/1.1" 200 15618
+Not Found: /favicon.ico
+[26/Jul/2022 01:13:18] "GET /favicon.ico HTTP/1.1" 404 2217
+[26/Jul/2022 02:22:18] "GET /admin/backend/botuser/ HTTP/1.1" 200 19707
+[26/Jul/2022 02:22:18] "GET /admin/jsi18n/ HTTP/1.1" 200 15618
+[26/Jul/2022 02:22:18] "GET /static/admin/css/base.css HTTP/1.1" 304 0
+[26/Jul/2022 02:22:18] "GET /static/jet/css/icons/style.css?v=1.0.8 HTTP/1.1" 304 0
+[26/Jul/2022 02:22:18] "GET /static/jet/css/vendor.css?v=1.0.8 HTTP/1.1" 304 0
+[26/Jul/2022 02:22:18] "GET /static/jet/css/themes/default/base.css?v=1.0.8 HTTP/1.1" 304 0
+[26/Jul/2022 02:22:18] "GET /static/jet/css/themes/default/select2.theme.css?v=1.0.8 HTTP/1.1" 304 0
+[26/Jul/2022 02:22:18] "GET /static/jet/css/themes/default/jquery-ui.theme.css?v=1.0.8 HTTP/1.1" 304 0
+[26/Jul/2022 02:22:18] "GET /static/admin/css/changelists.css HTTP/1.1" 304 0
+[26/Jul/2022 02:22:18] "GET /static/jet/js/i18n/jquery-ui/datepicker-ru.js?v=1.0.8 HTTP/1.1" 304 0
+[26/Jul/2022 02:22:18] "GET /jet/jsi18n/ HTTP/1.1" 200 14431
+[26/Jul/2022 02:22:18] "GET /static/jet/js/i18n/jquery-ui-timepicker/jquery.ui.timepicker-ru.js?v=1.0.8 HTTP/1.1" 304 0
+[26/Jul/2022 02:22:18] "GET /static/jet/js/i18n/select2/ru.js?v=1.0.8 HTTP/1.1" 304 0
+[26/Jul/2022 02:22:18] "GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 304 0
+[26/Jul/2022 02:37:50] "GET /admin/backend/botuser/ HTTP/1.1" 200 19707
+[26/Jul/2022 02:37:50] "GET /static/jet/css/vendor.css?v=1.0.8 HTTP/1.1" 200 53889
+[26/Jul/2022 02:37:50] "GET /static/jet/css/icons/style.css?v=1.0.8 HTTP/1.1" 200 2248
+[26/Jul/2022 02:37:50] "GET /static/jet/css/themes/default/select2.theme.css?v=1.0.8 HTTP/1.1" 200 23574
+[26/Jul/2022 02:37:50] "GET /static/jet/css/themes/default/jquery-ui.theme.css?v=1.0.8 HTTP/1.1" 200 6760
+[26/Jul/2022 02:37:50] "GET /admin/jsi18n/ HTTP/1.1" 200 15618
+[26/Jul/2022 02:37:51] "GET /jet/jsi18n/ HTTP/1.1" 200 14431
+[26/Jul/2022 02:37:51] "GET /static/jet/css/themes/default/base.css?v=1.0.8 HTTP/1.1" 200 178918
+[26/Jul/2022 02:37:51] "GET /static/jet/js/i18n/jquery-ui/datepicker-ru.js?v=1.0.8 HTTP/1.1" 200 1365
+[26/Jul/2022 02:37:51] "GET /static/jet/js/i18n/jquery-ui-timepicker/jquery.ui.timepicker-ru.js?v=1.0.8 HTTP/1.1" 200 520
+[26/Jul/2022 02:37:51] "GET /static/jet/js/i18n/select2/ru.js?v=1.0.8 HTTP/1.1" 200 1127
+[26/Jul/2022 02:37:51] "GET /static/jet/js/build/bundle.min.js?v=1.0.8 HTTP/1.1" 200 417084
+[26/Jul/2022 02:37:52] "GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 200 0
+[26/Jul/2022 02:37:52] "GET /static/admin/js/vendor/xregexp/xregexp.js HTTP/1.1" 200 232381
+[26/Jul/2022 02:37:52] "GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.1" 200 288580
+[26/Jul/2022 02:37:52] "GET /static/jet/css/icons/fonts/jet-icons.ttf?415d6s HTTP/1.1" 304 0
+Not Found: /favicon.ico
+[26/Jul/2022 02:37:52] "GET /favicon.ico HTTP/1.1" 404 2217
+[26/Jul/2022 02:37:55] "GET /admin/backend/botuser/ HTTP/1.1" 200 19707
+[26/Jul/2022 02:37:55] "GET /admin/jsi18n/ HTTP/1.1" 200 15618
+[26/Jul/2022 02:37:55] "GET /jet/jsi18n/ HTTP/1.1" 200 14431
+[26/Jul/2022 09:36:45] "GET /admin/backend/botuser/ HTTP/1.1" 200 19707
+[26/Jul/2022 09:36:45] "GET /admin/jsi18n/ HTTP/1.1" 200 15618
+[26/Jul/2022 09:36:45] "GET /jet/jsi18n/ HTTP/1.1" 200 14431
+Not Found: /favicon.ico
+[26/Jul/2022 09:36:46] "GET /favicon.ico HTTP/1.1" 404 2217
+[26/Jul/2022 09:36:47] "GET /admin/backend/botuser/ HTTP/1.1" 200 19707
+[26/Jul/2022 09:36:47] "GET /admin/jsi18n/ HTTP/1.1" 200 15618
+[26/Jul/2022 09:36:47] "GET /jet/jsi18n/ HTTP/1.1" 200 14431
+[26/Jul/2022 09:37:06] "GET /admin/backend/botuser/?o=3 HTTP/1.1" 200 20407
+[26/Jul/2022 09:37:07] "GET /jet/jsi18n/ HTTP/1.1" 200 14431
+[26/Jul/2022 09:37:07] "GET /admin/jsi18n/ HTTP/1.1" 200 15618
+Not Found: /favicon.ico
+[26/Jul/2022 09:37:07] "GET /favicon.ico HTTP/1.1" 404 2217
+[26/Jul/2022 09:37:08] "GET /admin/backend/botuser/?o=-3 HTTP/1.1" 200 20426
+[26/Jul/2022 09:37:08] "GET /jet/jsi18n/ HTTP/1.1" 200 14431
+[26/Jul/2022 09:37:08] "GET /admin/jsi18n/ HTTP/1.1" 200 15618
+Not Found: /favicon.ico
+[26/Jul/2022 09:37:08] "GET /favicon.ico HTTP/1.1" 404 2217
+[26/Jul/2022 10:36:40] "GET /admin/backend/botuser/?o=-3 HTTP/1.1" 200 20426
+[26/Jul/2022 10:36:40] "GET /jet/jsi18n/ HTTP/1.1" 200 14431
+[26/Jul/2022 10:36:40] "GET /admin/jsi18n/ HTTP/1.1" 200 15618
+Not Found: /favicon.ico
+[26/Jul/2022 10:36:41] "GET /favicon.ico HTTP/1.1" 404 2217
+[26/Jul/2022 10:36:47] "GET /admin/backend/botuser/?o=1.-3 HTTP/1.1" 200 20946
+[26/Jul/2022 10:36:47] "GET /jet/jsi18n/ HTTP/1.1" 200 14431
+[26/Jul/2022 10:36:47] "GET /admin/jsi18n/ HTTP/1.1" 200 15618
+Not Found: /favicon.ico
+[26/Jul/2022 10:36:47] "GET /favicon.ico HTTP/1.1" 404 2217
+[26/Jul/2022 10:36:51] "GET /admin/backend/botuser/?o=-1.-3 HTTP/1.1" 200 20967
+[26/Jul/2022 10:36:51] "GET /admin/jsi18n/ HTTP/1.1" 200 15618
+[26/Jul/2022 10:36:51] "GET /jet/jsi18n/ HTTP/1.1" 200 14431
+Not Found: /favicon.ico
+[26/Jul/2022 10:36:51] "GET /favicon.ico HTTP/1.1" 404 2217
+[26/Jul/2022 11:06:49] "GET /admin/backend/botuser/?o=-1.-3 HTTP/1.1" 200 20967
+[26/Jul/2022 11:06:49] "GET /admin/jsi18n/ HTTP/1.1" 200 15618
+[26/Jul/2022 11:06:49] "GET /jet/jsi18n/ HTTP/1.1" 200 14431

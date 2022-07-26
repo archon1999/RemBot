@@ -37,6 +37,7 @@ class CallTypes():
     ReferalProgram = CallTypeMeta('ReferalProgram')
     Referals = CallTypeMeta('Referals')
     Contacts = CallTypeMeta('Contacts')
+    Discounts = CallTypeMeta('Discounts')
     RecalcBonus = CallTypeMeta('RecalcBonus')
 
     Nothing = CallTypeMeta('Nothing')

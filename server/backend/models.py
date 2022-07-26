@@ -123,4 +123,4 @@ class Template(models.Model):
         verbose_name_plural = 'Шаблоны'
 
     def __str__(self):
-        return self.body
+        return self.title

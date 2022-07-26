@@ -1,4 +1,4 @@
-import time
+import datetime
 from telebot import TeleBot, types
 
 from django.utils import timezone
@@ -56,13 +56,16 @@ def open_orders_callback_query_handler(bot: TeleBot, call):
         tmp_order.pop('status', '')
         tmp_order.pop('estimated_cost', '')
         tmp_order.pop('estimated_done_at', '')
+        created_at = datetime.datetime.fromtimestamp(order.created_at / 1000)
+        estimated_done_at = datetime.datetime.fromtimestamp(
+            order.estimated_done_at / 1000)
         order_info = Messages.ORDER_INFO.format(
             id=order.id,
             description=description,
             status=order.status.name,
-            created=time.ctime(order.created_at / 1000),
+            created=created_at.strftime('%d %B %Y в %H:%M'),
             estimated_cost=order.estimated_cost,
-            estimated_done_at=time.ctime(order.estimated_done_at / 1000),
+            estimated_done_at=estimated_done_at.strftime('%d %B %Y в %H:%M'),
             **tmp_order,
         )
         text += order_info + '\n\n'
@@ -157,6 +160,30 @@ def contacts_callback_query_handler(bot: TeleBot, call):
         CallType=CallTypes.Menu,
     )
     keyboard = types.InlineKeyboardMarkup()
+    keyboard.add(back_button)
+    bot.edit_message_text(
+        text=text,
+        chat_id=chat_id,
+        message_id=call.message.id,
+        reply_markup=keyboard,
+        disable_web_page_preview=True,
+    )
+
+
+def discounts_callback_query_handler(bot: TeleBot, call):
+    chat_id = call.message.chat.id
+    user = BotUser.objects.get(chat_id=chat_id)
+    text = Messages.DISCOUNTS.format(name=user.name, bonus=user.bonus)
+    contact_administrator_button = types.InlineKeyboardButton(
+        text=Keys.CONTACT_ADMINISTRATOR,
+        url=Messages.LINK_ADMINISTRATOR,
+    )
+    back_button = utils.make_inline_button(
+        text=Keys.BACK,
+        CallType=CallTypes.Menu,
+    )
+    keyboard = types.InlineKeyboardMarkup()
+    keyboard.add(contact_administrator_button)
     keyboard.add(back_button)
     bot.edit_message_text(
         text=text,

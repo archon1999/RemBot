@@ -18,6 +18,7 @@ class Messages():
     WAITING_FOR_OPEN_ORDERS = Template.messages.get(id=28).gettext()
     LINK_ADMINISTRATOR = Template.messages.get(id=29).gettext()
     LINK_MASTER = Template.messages.get(id=30).gettext()
+    DISCOUNTS = Template.messages.get(id=32).gettext()
 
 
 class Keys():
@@ -34,6 +35,7 @@ class Keys():
     BACK = Template.keys.get(id=22).gettext()
     REFERALS = Template.keys.get(id=23).gettext()
     RECALC_BONUS = Template.keys.get(id=24).gettext()
+    DISCOUNTS = Template.keys.get(id=31).gettext()
 
 
 class Smiles():

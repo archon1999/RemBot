@@ -93,6 +93,7 @@ callback_query_handlers = {
     CallTypes.RecalcBonus: handlers.recalc_bonus_callback_query_handler,
     CallTypes.Referals: handlers.referals_callback_query_handler,
     CallTypes.Contacts: handlers.contacts_callback_query_handler,
+    CallTypes.Discounts: handlers.discounts_callback_query_handler,
 }
 
 
@@ -106,6 +107,8 @@ def callback_query_handler(call):
 
 
 if __name__ == "__main__":
-    # bot.polling()
+    import locale
+    locale.setlocale(locale.LC_ALL, 'ru_RU')
     print(bot.get_me())
+    # bot.polling()
     bot.infinity_polling()

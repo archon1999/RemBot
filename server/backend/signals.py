@@ -24,6 +24,15 @@ def generate_code():
 
 @receiver(post_save, sender=Template)
 def template_post_save_handler(instance, **kwargs):
+    import os
+    import psutil
+
+    for proc in psutil.process_iter():
+        if 'rem_bot' in proc.cmdline():
+            proc.kill()
+
+    os.system('cd ../client && python3.10 bot.py rem_bot &')
+
     template_file = 'backend/templates.py'
     with open(template_file, 'w') as file:
         file.write(generate_code())

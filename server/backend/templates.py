@@ -19,6 +19,8 @@ class Messages():
     LINK_ADMINISTRATOR = Template.messages.get(id=29).gettext()
     LINK_MASTER = Template.messages.get(id=30).gettext()
     DISCOUNTS = Template.messages.get(id=32).gettext()
+    BONUSES_ACCRUED = Template.messages.get(id=33).gettext()
+    OPEN_ORDERS_EMPTY = Template.messages.get(id=34).gettext()
 
 
 class Keys():

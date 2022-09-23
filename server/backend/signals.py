@@ -1,7 +1,9 @@
 from django.db.models.signals import post_save, post_delete
 from django.dispatch import receiver
+from django.utils import timezone
+from django_q.tasks import schedule, Schedule
 
-from backend.models import Template
+from backend.models import Template, OrderMailing
 
 
 def generate_code():
@@ -24,15 +26,6 @@ def generate_code():
 
 @receiver(post_save, sender=Template)
 def template_post_save_handler(instance, **kwargs):
-    import os
-    import psutil
-
-    for proc in psutil.process_iter():
-        if 'rem_bot' in proc.cmdline():
-            proc.kill()
-
-    os.system('cd ../client && python3.10 bot.py rem_bot &')
-
     template_file = 'backend/templates.py'
     with open(template_file, 'w') as file:
         file.write(generate_code())
@@ -43,3 +36,26 @@ def template_post_delete_handler(instance, **kwargs):
     template_file = 'backend/templates.py'
     with open(template_file, 'w') as file:
         file.write(generate_code())
+
+
+@receiver(post_save, sender=OrderMailing)
+def order_mailing_post_save_handler(instance, **kwargs):
+    name = f'order-mailing-{instance.id}'
+    if Schedule.objects.filter(name=name).exists():
+        sch = Schedule.objects.get(name=name)
+        sch.minutes = instance.period
+        sch.repeat = instance.repeat
+        sch.save()
+    else:
+        schedule('backend.tasks.order_mailing_run', instance.id,
+                 name=name,
+                 schedule_type=Schedule.MINUTES,
+                 minutes=instance.period,
+                 next_run=timezone.now(),
+                 repeats=instance.repeat)
+
+
+@receiver(post_delete, sender=OrderMailing)
+def order_mailing_post_delete_handler(instance, **kwargs):
+    name = f'order-mailing-{instance.id}'
+    Schedule.objects.filter(name=name).delete()

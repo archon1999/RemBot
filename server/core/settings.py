@@ -1,5 +1,9 @@
 from pathlib import Path
 
+import dotenv
+
+dotenv.load_dotenv('../.config')
+
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
 
@@ -28,6 +32,7 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'backend',
     'ckeditor',
+    'django_q',
 ]
 
 MIDDLEWARE = [
@@ -45,7 +50,7 @@ ROOT_URLCONF = 'core.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [],
+        'DIRS': ['templates'],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
@@ -116,3 +121,20 @@ STATIC_URL = '/static/'
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
 JET_SIDE_MENU_COMPACT = True
+
+Q_CLUSTER = {
+    'name': 'RemBot',
+    'workers': 1,
+    'recycle': 500,
+    'timeout': 360,
+    'compress': True,
+    'save_limit': 250,
+    'queue_limit': 500,
+    'cpu_affinity': 1,
+    'label': 'Django Q',
+    'redis': {
+        'host': '127.0.0.1',
+        'port': 6379,
+        'db': 0
+    }
+}

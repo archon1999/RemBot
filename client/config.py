@@ -2,9 +2,12 @@ import os
 import sys
 
 import django
+import dotenv
+
+dotenv.load_dotenv('../.config')
 
 
-TOKEN = '5422560391:AAFwSwsv4ny7MowN44AwLVgGEBGZcOpqMdQ'
+TOKEN = os.getenv('BOT_TOKEN')
 
 PARENT_PACKAGE = '..'
 APP_PACKAGE = 'server'

@@ -5,3 +5,4 @@ lxml
 django-jet
 django-ckeditor
 psutil
+python-dotenv

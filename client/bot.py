@@ -7,7 +7,7 @@ from call_types import CallTypes
 
 from backend.models import BotUser
 from backend.templates import Messages, Keys
-from backend import ro_api
+from backend import ro_api, tasks
 
 message_handlers = {
     '/start': commands.start_command_handler,
@@ -79,6 +79,7 @@ def contact_handler(message):
         user.rem_id = client.id
         user.name = client.name
         user.save()
+        tasks.update_bonus_for_new_user(user)
         commands.menu_command_handler(bot, message)
     else:
         user.bot_state = BotUser.State.REGISTRATION

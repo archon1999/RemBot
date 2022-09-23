@@ -66,9 +66,12 @@ def open_orders_callback_query_handler(bot: TeleBot, call):
             created=created_at.strftime('%d %B %Y в %H:%M'),
             estimated_cost=order.estimated_cost,
             estimated_done_at=estimated_done_at.strftime('%d %B %Y в %H:%M'),
-            **tmp_order,
+            **ro_api.get_items(tmp_order),
         )
         text += order_info + '\n\n'
+
+    if not orders:
+        text += Messages.OPEN_ORDERS_EMPTY
 
     bot.edit_message_text(
         chat_id=chat_id,

@@ -1,8 +1,14 @@
+import re
+import os
+
 from django.db import models
 from django.utils import timezone
 from ckeditor.fields import RichTextField
 from bs4 import BeautifulSoup
 from bs4.element import NavigableString, Tag
+
+BONUS_UPDATE_DAYS_FOR_NEW_USER = int(
+    os.getenv('BONUS_UPDATE_DAYS_FOR_NEW_USER'))
 
 
 class BotUser(models.Model):
@@ -22,8 +28,6 @@ class BotUser(models.Model):
     )
     bonus = models.IntegerField(default=0)
     bonus_updated = models.DateTimeField(default=timezone.now)
-    cashback_bonus_percentage = models.IntegerField(default=2)
-    referals_bonus_percentage = models.IntegerField(default=2)
     phone_number = models.CharField(max_length=255)
     bot_state = models.IntegerField(default=State.NOTHING)
     created = models.DateTimeField(auto_now_add=True)
@@ -34,6 +38,78 @@ class BotUser(models.Model):
     class Meta:
         verbose_name = 'Пользователь'
         verbose_name_plural = 'Пользователи'
+
+
+class OrderMailing(models.Model):
+    class StatusGroup(models.IntegerChoices):
+        CUSTOM = 0, '0 - Пользовательские'
+        NEW = 1, '1 - Новый'
+        ON_EXECUTION = 2, '2 - На исполнении'
+        DEFERRED = 3, '3 - Отложенные'
+        FULFILLED = 4, '4 - Исполненные'
+        DELIVERY = 5, '5 - Доставка'
+        CLOSED_SUCCESSFULLY = 6, '6 - Закрытые успешно'
+        CLOSED_UNSUCCESSFULLY = 7, '7 - Закрытые неуспешно'
+
+    orders = models.TextField(blank=True, default='')
+    title = models.CharField(max_length=255, verbose_name='Название')
+    image = models.ImageField(null=True, blank=True,
+                              upload_to='backend/images')
+    status_group = models.IntegerField(choices=StatusGroup.choices)
+    text = RichTextField()
+    created_at_duration = models.DurationField(null=True, blank=True)
+    closed_at_duration = models.DurationField(null=True, blank=True)
+    period = models.IntegerField()
+    repeat = models.IntegerField(default=-1)
+    user_unique = models.BooleanField()
+    created = models.DateTimeField(auto_now_add=True)
+
+    def get_orders(self):
+        return self.orders.split(',')
+
+    def has_order(self, order_id):
+        return str(order_id) in self.get_orders()
+
+    def insert_order(self, order_id):
+        orders = self.get_orders()
+        orders.append(str(order_id))
+        self.orders = ','.join(orders)
+        self.save()
+
+    def check_filters(self, items: dict):
+        if self.filters.all().count() == 0:
+            return True
+
+        for filter in self.filters.all():
+            attr_name = filter.attr_name
+            pattern = filter.pattern
+            if not items.get(attr_name, None):
+                continue
+
+            value = str(items[attr_name])
+            if re.findall(pattern, value):
+                return True
+
+        return False
+
+    class Meta:
+        verbose_name = 'Рассылка для заказа'
+        verbose_name_plural = 'Рассылка для заказов'
+
+
+class OrderMailingUser(models.Model):
+    user = models.ForeignKey(BotUser, on_delete=models.CASCADE)
+    mailing = models.ForeignKey(OrderMailing,
+                                on_delete=models.CASCADE,
+                                related_name='users')
+
+
+class OrderMailingFilter(models.Model):
+    order_mailing = models.ForeignKey(OrderMailing,
+                                      on_delete=models.CASCADE,
+                                      related_name='filters')
+    attr_name = models.CharField(max_length=255)
+    pattern = models.CharField(max_length=255)
 
 
 def filter_tag(tag: Tag, ol_number=None):
